@@ -18,3 +18,4 @@ winget install --id GitHub.cli
 gh --version
 gh auth login
 7FC7-56E0
+gh repo create AWS+Azure+Devops --public --source=. --remote=origin --push
