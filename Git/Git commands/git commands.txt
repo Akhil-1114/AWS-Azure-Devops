@@ -9,7 +9,7 @@ git commit -m "upload folder to github and troubleshoot using git bash"
 git remote add origin "https://github.com/Akhil-1114/Git"
 git remote set-url origin https://github.com/Akhil-1114/Git
 git remote -v
-git push -u origin master
+git push -u origin main
 git remote add origin https://github.com/Akhil-1114/Git
 git branch
 git branch -m master main
