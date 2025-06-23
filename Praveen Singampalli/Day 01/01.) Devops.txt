@@ -1,0 +1,63 @@
+In 2012-2016 devops started
+
+Devops Flow 2024
+
+Tools - Jenkins, Maven, Sonarqube, Nexus, Ansible, Kubernetes, Containers, CI/CD, Docker
+
+Cloud - Azure, GCP, AWS, Git
+
+Automations - Python, Shell, Java, Springboot, Nodejs
+
+Security - Blackduck, Fotify, Sonarqube
+
+Monitoring - Prometheus, Grafana, Splunk
+
+Production Support / Oncall Support - Different Shifts
+
+Infrastructure Setup - Terraform
+
+Coding - Basic, Medium (Real time automations) Python
+
+Linux - Networking
+
+SRE Performance - Load, Scaling, Availability
+
+Walmart - Application Onboarding checklist
+-- Branching Strategies
+-- What code is required
+-- Size of the code
+-- Number of servers required
+-- Analytical Skills
+
+Devops engineer passing something inside the train as input and getting something outside the train as input
+
+Devops - Pipeline + Infrastructure Setup + Cost Optimization
+
+Site reliability engineer SRE - Performance, Monitoring, Load Performance Testing, Cost Optimization
+
+Devops engineer collaborate with Development team and deliver the deployments faster or upscale the servers
+
+Devops - When developer gives code to us we need to know these tools Jenkins, Docker, Kubernetes
+
+When developer gives code to Devops team he compares with the checklist and if passed passes through the pipeline
+
+Jenkins holds all tools together
+
+Github / Gitlab / Bit bucket - Store the source code of any size in gb (Source Code)
+
+Sonarqube, Blackduck, Checkmarks - checks the security and code analysis line by line (Code Analysis)
+
+Maven, Talend, Pip, Sbt - used to convert 10gb of code to 10mb of jar code (Build Unit Test)
+
+Docker will convert the jar file to image
+
+Sonatype_nexus, Archiva, Jfrog Artifactory - Store the source code of any size in mb (Repository Management)
+
+Terraform - Deploying the code into infra on some server (Cloud Infra Setup)
+
+Prometheus, Grafana - Monitor the infra website link (Monitor and Reports)
+
+For every devops tools there are configurations and commands
+
+Domain name is configured by devops engineer
+

@@ -1,0 +1,82 @@
+Linux is a laptop
+
+Harddisk, CPU, Memory, Cache, OS, Folders, Users, Security, Softwares, Network
+
+linux is a kind of server with OS
+
+Laptop
+
+C Drive - OS / program files
+D Drive - Data
+E Drive - Photos 
+F Drive - Videos
+
+Linux
+                                          /
+/root  /dev  /boot  /usr  /var  /etc  /home  /opt  /media  /mnt  /proc  /bin  /lib  
+
+/root - home directory for root user
+
+/dev - contains device files such as /dev/sda
+
+/boot - Static boot files
+
+/usr - Applications and user utilities
+
+/var - files of various system applications
+
+/etc - system configuration files are stored
+
+/home - user folders are located
+
+/opt - add on application packages
+
+/media - stores files for removable devices
+
+/mnt - subdirectories that act as temporary mount files
+
+/proc - virtual file system having information on currently running processes. Created upon a system boot and destroyed upon shutdown
+
+cpu, memory, time, load average, uptime, load
+
+/bin - user command binary files
+
+/lib - library images and kernel modules
+
+User Denotations
+u - user/owner
+
+g - group
+
+o - other
+
+a - all
+
+r - read permissions
+
+w - write permissions
+
+x - execute permissions
+
+- - no permissions
+
+- - first is a file
+
+d - first is a directory 
+
+0 - no permission -
+
+1 - Execute permission - -x
+
+2 - Write permission - -w-
+
+3 - Execute + Write permission - -wx
+
+4 - Read permission - r-
+
+5 - Read + Execute permission - r-x
+
+6 - Read + Write permission - rw-
+
+7 - Read + Write + Execute permission - rwx
+

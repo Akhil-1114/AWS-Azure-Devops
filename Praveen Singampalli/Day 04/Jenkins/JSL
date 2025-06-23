@@ -1,0 +1,70 @@
+JSL
+
+Jenkins shared library
+
+01.) Java 3.0 (1st microservice) has a jenkins files integrated
+
+02.) You expect for each service to have a different jenkins file and if you expect to use similar code on all different
+jenkins file its possible using jenkins share library  
+
+03.) There is possibility of code setup on master jenkins file to be inherited to child jenkins file which helps instead
+of placing the code on each child jenkins file its possible to place on master jenkins file
+
+04.) In master github repository there are multiple jenkins files having urls and branches
+mvnbuild.groovy, sonarqube.groovy, blackduck.groovy, docker.groovy, jfrog.groovy
+
+05.) you can use groovy files setup on master github repository to child jenkins files by using @library('randomname')
+
+06.) configure the @library('randomname') to ci/cd pipeline
+
+07.) Sonarqube helps to analyse
+
+08.) When you try to onboard sonarqube with a service setup sonar.propertyfile or setup webhook 
+
+09.) before setup above create projectname and projectkey in the sonarqube
+
+10.) create servicename-service and servicename-key and add to sonar.properties file
+
+11.) Whenever we try to integrate a jenkins with any tool we need to have credentials to confirm no communication issues
+
+12.) Provide the information of url and data of jenkins to sonarqube
+
+13.) Provide the information of credentials of sonarqube to jenkins
+
+14.) data provided to jenkins is automatically shared to Sonarqube 
+
+15.) webhook is only for sonarqube
+
+16.) Sonarqube identifies dependency issues
+
+17.) Sonarqube identifies security issues (viruses xxe, password hardcode, ddos attacks, cve)
+
+18.) Sonarqube identifies jar file size is big impacting code and server
+
+19.) Sonarqube identifies if quality gate is set to 10% only and code dont cross the 10% limit to pass or fail the pipeline
+
+20.) Sonarqube analyse the data but unsatisfied so we go ahead with fortify/owasp/checkmarx/blackduck
+
+21.) from sonarqube passes to fortify and captures complex security vulnerabilities 
+
+22.) API -Application programming interface
+
+23.) Every tool will expose api during process of Pre release and post release
+
+24.) Pre release - (walmart.com/cart) - (api/v3/car/query?=1) (https://www.amazon.in/rest//api/3/issue/SA-5)
+
+25.) Every script is transferred as json java script object notation
+
+26.) https://www.amazon.in/browse/SA-5
+
+27.) Api for internal testing
+
+28.) Jfrog/nexus a tool save files in mb's or kb's size
+
+29.) nexus is repository
+
+30.) Jenkins port number is 8080
+
+31.) Jenkins URL 
+https://pkg.origin.jenkins.io/debian-stable/
+

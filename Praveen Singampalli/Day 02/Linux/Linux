@@ -1,0 +1,52 @@
+Linux
+01.) Laptop is connected to router or lan
+
+02.) Each laptop is connected to dns
+
+03.) When we hit a website link where each website link is connected to 2 servers web server and application server
+
+04.) Web server is httpd apache server which hosts ui acts as router for application server
+
+05.) Application server i.e; tomcat server where we place file inside the server and run the server provided by development team which hosts application server
+
+06.) When we pass a request it travels through apache server httpd (ui) and routes through tomcat server and in tomcat server we have actual file with code (backend)
+
+07.) apache server ui code will be in react, angular, framework 
+
+08.) tomcat server backend code will be in java
+
+09.) apache server communicates will google
+
+10.) Any request comes will pass through apache and go through tomcat
+
+11.) The above setup is the post analytics of an application
+
+
+01.) when 2 servers talk with each other some data transfer is happening
+
+02.) When ever a request is transferred it is converted to bits/chunks of data packets
+
+03.) Laptop has ethernet port
+
+04.) When request is made it pass through router or wifi from port number 8080
+
+05.) Router redirect the request to nearest dns server and dns server maps www.devops.in to the ip address
+
+06.) dns domain name server
+
+07.) dns acts as phone where we search using name
+
+08.) www.devops.in to the ip address convertion takes place at the dns level
+
+09.) ip address is apache server httpd
+
+10.) with the help of route 53 create server name and attach to backend server
+
+11.) The above setup is the pre analytics of an application
+
+
+
+01.) when ever you run an application on a server it produces 10.12.15.32/16 running on port number 8080
+
+02.) When we enter 10.12.15.32:8080 application responds with answer
+

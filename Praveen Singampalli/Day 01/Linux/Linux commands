@@ -1,0 +1,20 @@
+cd path
+mkdir batch08
+cd batch08
+git init
+ls -lrta
+touch demoname
+ls -lrta
+git add demoname
+git push "remote" "branch"
+clear
+git log
+git branch
+git commit -m "commit batch08 demo file"
+git log
+history
+git branch
+ls -lrta
+chmod +x demoname
+chmod 777 demoname
+

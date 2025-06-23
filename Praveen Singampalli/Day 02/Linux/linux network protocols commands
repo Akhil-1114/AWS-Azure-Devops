@@ -1,0 +1,24 @@
+linux network protocols commands
+
+01.) FTP - File transfer protocol (TCP 20,21) *
+
+02.) SSH - Secure shell ssh secure login (TCP 22) *
+
+03.) Telnet - remote login service, unencrypted text messages (23) *
+
+04.) SMTP - simple mail transfer protocol email routing (TCP 25) *
+
+05.) DNS - domain name system (TCP/UDP-53) *
+
+06.) DHCP - dynamic host configuration protocol IP - (67 server) - 68 (client) *
+
+07.) HTTP - hypertext transer protocol (TCP-80) used in the world wide web (TCP-80)
+
+08.) POP3 - Post office protocol POP3 (TCP-110)
+
+09.) NTP - network time protocol (UDP-123) *
+
+10.) SNMP - simple network management protocol (UDP-161/162) *
+
+11.) HTTPS - Secure (HTTPS) HTTP over TLS/SSL (TCP-443) *
+

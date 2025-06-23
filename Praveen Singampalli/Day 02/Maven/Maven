@@ -1,0 +1,46 @@
+Maven
+
+01.) Code was coming from github to sonarqube to maven to jfrog
+
+02.) Maven has 8 life cycle policies (phases)
+
+03.) Maven code is in java format
+
+04.) code passes through maven 8 phases
+
+05.) mvn validate
+
+06.) mvn compile
+
+07.) mvn clean
+
+08.) mvn test
+
+09.) mvn install
+
+10.) mvn deploy
+
+11.) 10gb of code is converted to 10mb of jar code using maven
+
+12.) build output file which is generated inside a new maven code folder
+
+13.) mvn clean deletes target folder having class and jar files
+
+14.) mvn compile scans each line and converts jar files to readable files
+
+15.) cleaning, compiling, test, package, jar, deploy on jfrog
+
+16.) maven has local and central repositories
+
+17.) mvn install jar code is stored in .m2 folder
+
+18.) mvn deploy copy jar code from local to central repository
+
+
+01.) open google
+
+02.) maven spring boot starter web jar
+
+03.) https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web (maven central repository)
+
+04.) check versions

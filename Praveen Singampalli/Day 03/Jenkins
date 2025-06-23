@@ -1,0 +1,108 @@
+Jenkins (ci/cd pipeline)
+
+01.) Developer pushes the code into the train travelling multiple compartments and provide the results
+
+02.) When development team creates new microservice (payment service, cart service, order service landing page) combined provide us application
+
+03.) When development team comes to devops team and ask to deploy those microservices we according to checklist we onboard it to ci/cd pipeline and deploy it to cloud kubernetes eks or azure kubernetes aks
+
+04.) cid/cd pipeline should cover compartments security, build, jfrog, docker, ansible, kubernetes, testing, monitoring, healthchecks with a passenger (code) on a train communicating with each compartment
+
+05.) cid/cd pipeline passes through 4 stations dev, q/a, stage, prod
+
+06.) Even if there are cases of redeployment or pulling to older version each compartment file has a name which comes up with a new version after making changes and redeploying
+
+07.) All versions are maintained by devops engineer team
+
+08.) when we make any changes automatically the jenkins will trigger called as webhook automation
+
+09.) We push the code from any source code to jenkins with webhook api
+
+10.) java code using maven(build) converted to jar (10gb to 10mb)
+
+11.) python code to be used as code converted to django flask framework
+
+12.) python code to be used as automation 1 file run
+
+13.) node js code using node or npm converted to build folder
+
+14.) 6 members team running 12 services of amazon triggering jenkins job every 10 minutes
+
+15.) When the load is more on jenkins server load is handled using master and slave
+
+16.) triggering jenkins job is parent jenkins where we are creating child servers to manage load called as slave and triggering jenkins job is master
+
+17.) Slaves are of 2 modes linux slave mode and windows slave mode
+
+18.) when there is a push of source code to jenkins it triggers jenkins master server and distribute among linux slave mode and windows slave mode
+
+19.) Attach a slave ---
+Jenkins -> Manage Jenkins -> Node -> New Node -> Configuration of the node -> Jar file with one command created (DNA of parent jenkins) will be attached to the server
+
+20.) Devops tools have configuration file and command
+
+for jenkins --- jenkins file
+for docker --- docker file
+for kubernetes --- manifest file
+for maven --- pom.xml file
+
+21.) Instructions within the train are provided by Jenkins file
+
+22.) Create file you want in groovy language but 4 lines should be common
+
+23.) Declarative pipeline (order) and scripted pipeline (not in order complex)
+
+24.) node,agent,machine are same
+
+25.) Real time where developer will write code and merge with feature branch and when communicated with ci/cd pipeline there is failure in sonarqube(security)
+
+26.) Real time where developer will write code and merge with child branch and when communicated with ci/cd pipeline there is no failure in sonarqube(security) emailed to manager to merge upon apporval with feature branch and when communicated with ci/cd pipeline there is no failure in sonarqube(security)
+
+27.) When writing java code pom.xml, src, resources, jenkins file are mandatory
+
+28.) Dependencies are written in pom.xml (project object model)
+
+https://github.com/praveen1994dec/Java_app_3.0/blob/main/pom.xml
+
+29.) <> start tag
+
+30.) </> end tag
+
+31.) <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.1.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+32.) <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+
+        are mandatory not to be chaned
+
+33.)  <groupId>com.minikube.sample</groupId>
+    <artifactId>kubernetes-configmap-reload</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>minikube-sample</name>
+    <description>Demo project for Spring Cloud Kubernetes</description>
+
+    Edit according to requirement
+
+34.) <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    These are not to be changed
+
+35.) Pom.xml divided into parent, project details, properties, dependency
+
+36.) air, food, water are dependencies in jar format
+
+37.) For each train there will be parameter defining which action to be done
+
+
+
+

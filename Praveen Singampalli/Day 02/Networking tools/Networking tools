@@ -1,0 +1,20 @@
+
+
+When the website is not responding how to troubleshoot or debug network issue
+
+01.) ping www.google.com
+
+02.) traceroute www.google.com
+
+03.) netstat -a - check server talking with how many servers
+
+04.) nmap -p 1-1000 target (p=port)
+
+05.) tcpdump -i eth0 (monitoring)
+
+06.) ipconfig (windows) or ifconfig(linux)
+
+07.) dig www.google.com (domain information groper)
+
+08.) nslookup (windows) or host (linux)
+

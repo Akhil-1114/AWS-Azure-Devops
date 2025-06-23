@@ -1,0 +1,43 @@
+Git Commands
+
+01.) DOWNLOAD AND INSTALL
+Git Install For linux, Mac and Windows
+https://git-scm.com/downloads
+
+02.) CONFIGURE
+Git Config Levels And Files
+--local (repository's.git directory: ~/.gitconfig)
+--global (User's home directory: ~/.gitconfig on unix systems & C;\Users\<username>\.gitconfig on windows)
+--system (System root path: ROOT/etc/gitconfig on unix systems and C:\ProgramData\Git|config on windows)
+
+Configure Microsoft VS Code Editor
+$ git config --global core.editor ""<Path>/Code.exe "-w"
+
+Configure user info
+$ git config --global user.name "XDK"
+$ git config --global user.email "XDK@XDK.com"
+
+Configure CLI console settings
+$git config --global color.ui auto
+
+Show config list
+$ git config -I
+
+To create Alias, Add Alias at GIT Global Config
+$git config --global alias.<short_cmnd> "long Command"
+
+git init - Create a new git repository
+git add "newfile" - Add a new file to staging area
+git commit - Add staged changes to local repository
+git push "remote" "branch" - Push local repository changes to remote repository
+git pull "remote" "branch" - Pull remote repository to local repository
+git branch - See local branches
+git branch "NewName" - Create new local branch
+git checkout "branchname" - Switch branches
+git diff - See actual difference in code between your working tree and staging area
+git status - Show which files are tracked or untracked
+git log - Show recent commit history
+git show "commit_id" - Show details of specific commit
+git commit -m "message" - message
+git merge - 
+git rebase - 

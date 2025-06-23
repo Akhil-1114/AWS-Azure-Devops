@@ -1,0 +1,72 @@
+Create EC2 instance in aws with these parameters
+
+01.) EC2 Type - Ubuntu t2.micro
+
+02.) EBS Volume - 30GB
+
+03.) Region - US-EAST-1
+
+01.) Open EC2 instance
+
+02.) Click on Launch instance
+
+03.) Update as ap-south-1
+
+04.) Update name
+
+05.) Update aws os Ubuntu
+
+06.) Update Instance type - t2.micro
+
+07.) Proceed without key pair  
+
+08.) Configure storage - 30GB
+
+09.) Click on Launch instance
+
+10.) Select instance and click on connect
+
+11.) Update connection type - "Connect using EC2 Instance connect"
+
+12.) Click on Connect
+
+13.) Sudo su
+
+14.) Open below url
+https://github.com/praveen1994dec/tools_installation_scripts/blob/main/jenkins.sh
+
+15.) Update packages
+sudo apt update -y
+
+16.) upgrade packages
+sudo apt upgrade -y
+
+17.) Install java to run jenkins
+sudo apt install openjdk-17-jre -y
+
+18.) Install jenkins credentials
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+/usr/share/keyrings/jenkins-keyring.asc > /dev/null
+
+19.) Set package manager for jenkins
+/etc/apt/sources.list.d/jenkins.list > /dev/null
+
+20.) Get jenkins package
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+
+21.) Confirm the above script from below url
+https://pkg.origin.jenkins.io/debian-stable/
+
+22.) Update packages
+sudo apt-get update -y
+
+23.) install jenkins
+sudo apt-get install jenkins -y
+
+24.) Open security of the instance
+
+25.) Click on security groups
+
+26.) 
+

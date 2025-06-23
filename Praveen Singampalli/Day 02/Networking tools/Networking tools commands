@@ -1,0 +1,27 @@
+Networking tools commands
+
+01.) ping - to check reachability of a host on an internet protocol
+example :- ping www.google.com
+
+02.) traceroute or traceroute6 - to display route and measure transit delays of packets across an internet protocol network
+example :- traceroute www.google.com
+
+03.) Netstat - to display active network connections, route tables, interface statistics, masquerade connections multicast memberships
+example :- netstat -a
+
+04.) Nmap - To discover hosts and services on a computer network, creating a map of the network
+example :- nmap -p 1-1000 target
+
+05.) tcpdump - to capture and analyze network traffic
+example :- tcpdump -i eth0
+
+06.) ipconfig (windows) or ifconfig(linux) - to display configuration of network interfaces
+example :- ifconfig
+
+07.) dig (domain information groper) - to query dns name servers for information about host addresses, mail exchanges, name servers and related information
+example :- dig www.google.com
+
+08.) nslookup (windows) or host (linux) - to query dns servers for domain information
+ 
+
+

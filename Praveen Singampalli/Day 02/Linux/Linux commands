@@ -1,0 +1,18 @@
+Linux commands
+
+01.) When we kill an application the application will be killed but background application will be still running called zombie
+
+02.) logs -v
+
+03.) tar -xvf archive.tar
+
+tar -cvzf archive.tar.gz files/directories
+
+c - compress
+
+x - extract
+
+v - verbose
+
+f - filename
+

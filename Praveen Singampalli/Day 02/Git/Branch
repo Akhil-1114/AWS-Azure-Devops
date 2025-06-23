@@ -1,0 +1,35 @@
+Branch
+
+01.) head or main is always a branch in github
+
+02.) All books are kept in a rack in library
+
+03.) 5 types of branching in github
+
+04.) In devops there are many branching strategies - DEV, Q/A, Stage, Prod, Hotfix prod
+
+05.) Dev and Q/A for development team
+
+06.) Stage for client/manager
+
+07.) Prod for users
+
+08.) Hotfix prod for issues in the prod
+
+09.) Each has each seperate branch
+
+10.) Developer has dev branch where coding is done by developer and merge the code into feature branch
+
+11.) When flipkart deliver the order in 10 minutes which is called feature is divided into smaller chuncks of task to each team
+
+12.) Each task is divided with each branch
+
+13.) once task is completed each branch will be merged into feature branch (development operations)
+
+14.) once the feature is ready they will deploy the code into release branch (q/a and stage operations)
+
+15.) Once it pass through release it goes through main branch (pre-prod and prod operations)
+
+16.) issue in the production hot fix branch created resolved using feature, release branches and move hand over to main branch  
+
+17.) in github, bitbucket, gitlab any repository management tool tag should be associated with the branch

@@ -1,0 +1,20 @@
+git --version
+git remote -v
+git init
+git add "folder/filename"
+git config --global user.name "Akhil-1114"
+git config --global email.user "digitalakhil19@gmail.com"
+git status
+git commit -m "upload folder to github and troubleshoot using git bash"
+git remote add origin "https://github.com/Akhil-1114/Git"
+git remote set-url origin https://github.com/Akhil-1114/Git
+git remote -v
+git push -u origin master
+git remote add origin https://github.com/Akhil-1114/Git
+git branch
+git branch -m master main
+git rm-rf filename
+winget install --id GitHub.cli
+gh --version
+gh auth login
+7FC7-56E0
