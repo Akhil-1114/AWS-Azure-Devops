@@ -98,4 +98,13 @@ docker -v or docker --version
 | `docker -v`      | Displays installed Docker version (short format) |
 | `docker version` | Detailed version info (client & server)          |
 
+10.)
+docker run -p 9000:9000
+| Component      | Meaning                                          |
+| -------------- | ------------------------------------------------ |
+| `docker`       | Docker CLI                                       |
+| `run`          | Start a new container                            |
+| `-p 9000:9000` | Map host port 9000 to container port 9000        |
+| `<image-name>` | The Docker image to run (e.g., `nginx`, `minio`) |
+
 

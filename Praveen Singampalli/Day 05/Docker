@@ -24,3 +24,20 @@ Docker
 
 12.) 5 main components of docker architecture
 
+13.) Client, Daemon, Registry, Image, Container
+
+14.) Client is a black terminal cmd prompt where commands provided are converted into container
+
+15.) Commands provided in docker client are communicating in Docker software (docker host) having daemons
+
+16.) Daemon handles processes for application to be running in the background
+
+17.) client level docker build convert dockerfile into an image by communicating with docker daemon
+
+18.) client level docker pull from registry of jfrog or dockerhub to laptop by communicating with docker daemon
+
+19.) client level docker run will convert image to container by communicating with docker daemon
+
+20.) Docker depends on docker file
+
+21.) 
