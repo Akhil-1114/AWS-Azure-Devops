@@ -1,29 +1,29 @@
 Pending
-CD tools with Docker advanced hands on - July 20th
+01.) CD tools with Docker advanced hands on - July 20th
 
-Kubernetes hands on part-1 (basics) - July 21st
+02.) Kubernetes hands on part-1 (basics) - July 21st
 
-Kubernetes advanced part -2 - July 27th
+03.) Kubernetes advanced part -2 - July 27th
 
-Python Project hands on - July 28th
+04.) Python Project hands on - July 28th
 
-Real time monitoring hands on - August 3rd
+05.) Real time monitoring hands on - August 3rd
 
-Shell Scripting hands on - August 4th
+06.) Shell Scripting hands on - August 4th
 
-Terraform hands on - August 10th
+07.) Terraform hands on - August 10th
 
-AWS scenarios with hands on - August 11th
+08.) AWS scenarios with hands on - August 11th
 
-Ansible hands on - August 17th
+09.) Ansible hands on - August 17th
 
-Redhat RHCSA - August 18th
+10.) Redhat RHCSA - August 18th
 
-Azure infra creation with Terraform - August 24th
+11.) Azure infra creation with Terraform - August 24th
 
-Linkedln profile building - August 25th
+12.) Linkedln profile building - August 25th
 
-Resume building - August 31st
+13.) Resume building - August 31st
 
-Interview - September 1st
+14.) Interview - September 1st
 
