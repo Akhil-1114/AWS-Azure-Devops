@@ -1,0 +1,28 @@
+Docker Installation
+
+Installation of docker
+sudo apt update -y
+
+
+sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
+
+sudo: Runs the command with superuser (root) privileges.
+
+apt install: Installs packages using APT (Advanced Package Tool).
+
+apt-transport-https: Enables apt to fetch packages over HTTPS.
+
+ca-certificates: Contains root certificates to verify the authenticity of SSL connections.
+
+curl: A command-line tool for transferring data with URLs, often used to fetch scripts or files.
+
+software-properties-common: Adds management tools for apt repositories (like add-apt-repository).
+
+-y: Automatically confirms the installation (assumes "yes" to prompts).
+
+You typically run this command:
+
+Before adding a third-party repository (e.g., Docker, Kubernetes, HashiCorp).
+
+When setting up a new server to ensure HTTPS-based downloads work securely.
+
