@@ -1,28 +1,101 @@
 Docker Installation
 
 Installation of docker
+
+1.)
 sudo apt update -y
 
+| Part     | Meaning                                                                                                                   |
+| -------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `sudo`   | Runs the command as root (administrator).                                                                                 |
+| `apt`    | Ubuntu/Debian's command-line package manager.                                                                             |
+| `update` | Tells `apt` to refresh its local list of available packages from all configured sources.                                  |
+| `-y`     | (Usually) means "assume yes to prompts", but here it’s **not needed** — because `apt update` doesn’t prompt for anything. |
 
+
+2.)
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
 
-sudo: Runs the command with superuser (root) privileges.
+| Package                      | Purpose                                                                                      |
+| ---------------------------- | -------------------------------------------------------------------------------------------- |
+| `apt-transport-https`        | Allows APT to fetch packages over HTTPS (secure protocol).                                   |
+| `ca-certificates`            | Contains trusted SSL certificates to validate secure connections (like Docker's HTTPS repo). |
+| `curl`                       | A command-line tool to download files from the internet (used to fetch Docker's GPG key).    |
+| `software-properties-common` | Provides `add-apt-repository`, a tool for adding external APT repositories.                  |
+| `-y`                         | Automatically answers “yes” to all prompts, so the install runs non-interactively.           |
 
-apt install: Installs packages using APT (Advanced Package Tool).
 
-apt-transport-https: Enables apt to fetch packages over HTTPS.
+3.) 
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - what is this
 
-ca-certificates: Contains root certificates to verify the authenticity of SSL connections.
+| Part                                           | Meaning                                                                          |                                                 |
+| ---------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------- |
+| `curl -fsSL`                                   | Downloads a file silently and securely (fails on error, shows only the content). |                                                 |
+| `https://download.docker.com/linux/ubuntu/gpg` | URL to Docker’s official GPG public key.                                         |                                                 |
+| \`                                             | \`                                                                               | Pipes the downloaded key into the next command. |
+| `sudo apt-key add -`                           | Adds the GPG key from stdin (`-`) to the list of trusted APT keys.               |                                                 |
 
-curl: A command-line tool for transferring data with URLs, often used to fetch scripts or files.
 
-software-properties-common: Adds management tools for apt repositories (like add-apt-repository).
+4.)
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" -y
+| Part                                                                        | Description                                                                                                                                                                                                                                                                                                   |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `sudo`                                                                      | Runs the command as superuser (admin/root privileges).                                                                                                                                                                                                                                                        |
+| `add-apt-repository`                                                        | Command to add an APT repository to your system.                                                                                                                                                                                                                                                              |
+| `"deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"` | The APT source line specifying the Docker repository: <br> - `deb`: binary packages <br> - `arch=amd64`: 64-bit architecture only <br> - `https://download.docker.com/linux/ubuntu`: URL of Docker's repository <br> - `bionic`: Ubuntu 18.04 codename <br> - `stable`: The stable channel of Docker releases |
+| `-y`                                                                        | Automatically confirms adding the repository without prompting.                                                                                                                                                                                                                                               |
 
--y: Automatically confirms the installation (assumes "yes" to prompts).
 
-You typically run this command:
+5.)
+sudo apt update -y
+| Part     | Meaning                                                                                        |
+| -------- | ---------------------------------------------------------------------------------------------- |
+| `sudo`   | Runs the command with root privileges (necessary for system-level updates).                    |
+| `apt`    | A command-line tool for managing packages (used on Debian/Ubuntu systems).                     |
+| `update` | Tells APT to refresh its local cache of available package versions and sources.                |
+| `-y`     | (Usually) means “yes to all prompts” — used for commands that might ask for user confirmation. |
 
-Before adding a third-party repository (e.g., Docker, Kubernetes, HashiCorp).
 
-When setting up a new server to ensure HTTPS-based downloads work securely.
+6.)
+apt-cache policy docker-ce
+| Part        | Description                                                             |
+| ----------- | ----------------------------------------------------------------------- |
+| `apt-cache` | A command-line tool to query information from the APT package cache.    |
+| `policy`    | Shows the version priority and installation source for a given package. |
+| `docker-ce` | The Docker Community Edition package you’re inspecting.                 |
+
+7.)
+sudo apt install docker-ce -y
+| Part          | Meaning                                                                                        |
+| ------------- | ---------------------------------------------------------------------------------------------- |
+| `sudo`        | Run the command with superuser (root) privileges.                                              |
+| `apt install` | Installs the specified package.                                                                |
+| `docker-ce`   | The Docker **Community Edition** package.                                                      |
+| `-y`          | Automatically confirms the installation without prompting you with “Do you want to continue?”. |
+
+8.)
+sudo systemctl status docker
+| Part        | Description                                                   |
+| ----------- | ------------------------------------------------------------- |
+| `sudo`      | Runs the command with superuser privileges.                   |
+| `systemctl` | A command-line tool to control system services via `systemd`. |
+| `status`    | Tells `systemctl` to show the current status of a service.    |
+| `docker`    | The name of the Docker service (typically `docker.service`).  |
+
+9.)
+sudo chmod 777 /var/run/docker.sock
+| Part                   | Meaning                                                                                                       |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `sudo`                 | Run as superuser (required for changing system file permissions).                                             |
+| `chmod`                | Command to change file permissions.                                                                           |
+| `777`                  | Gives **full permissions** (read `r`, write `w`, execute `x`) to everyone.                                    |
+| `/var/run/docker.sock` | This is the Unix socket file Docker uses for communication between the `docker` CLI and the `dockerd` daemon. |
+
+10.) 
+docker -v or docker --version
+| Command          | Purpose                                          |
+| ---------------- | ------------------------------------------------ |
+| `docker -v`      | Displays installed Docker version (short format) |
+| `docker version` | Detailed version info (client & server)          |
+
 

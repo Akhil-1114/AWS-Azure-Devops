@@ -1,0 +1,2 @@
+Sonarqube links
+https://github.com/praveen1994dec/tools_installation_scripts/blob/main/sonarqube.sh

@@ -1,0 +1,10 @@
+Sonarqube installation
+docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
+| Part               | Description                                                                                    |
+| ------------------ | ---------------------------------------------------------------------------------------------- |
+| `docker run`       | Runs a new container.                                                                          |
+| `-d`               | Detached mode – runs the container in the background.                                          |
+| `--name sonarqube` | Names the container `sonarqube`.                                                               |
+| `-p 9000:9000`     | Maps **host port 9000 to container port 9000** (used for SonarQube UI).                        |
+| `-p 9092:9092`     | Maps **host port 9092 to container port 9092** (optional; used by some plugins or clustering). |
+| `sonarqube`        | The image name (Docker Hub official SonarQube image).                                          |
