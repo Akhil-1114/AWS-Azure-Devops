@@ -12,3 +12,5 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   /etc/apt/sources.list.d/jenkins.list > /dev/null --- "Create a new APT source file that tells your system where to find and trust Jenkins packages, using the GPG key we saved earlier."
 sudo apt-get update -y 
 sudo apt-get install jenkins -y --- install jenkins
+http://<EC2_PUBLIC _IP>:8080/ --- Sign into jenkins console
+cat /var/lib/jenkins/secrets/initialAdminPassword --- collect the admin password (bcc604a613ed412c998dd757ca873bd9)
