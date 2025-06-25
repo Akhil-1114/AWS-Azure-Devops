@@ -1,0 +1,3 @@
+Linux commands
+
+sudo apt install jenkins
