@@ -54,7 +54,7 @@ Docker
 
 27.) 1st ec2 10gb ram 100gb hard disk
 
-28.) 1st ec2 to be converted to 10 containers using required resources and cgroups which defined using == notion
+28.) 1st ec2 to be converted to 10 containers using required resources and cgroups
 
 29.) Ec2 server is parent having child ec2 servers called containers and containers should be having some inheritance from parent which are provided by resources
 

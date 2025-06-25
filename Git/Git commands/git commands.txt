@@ -20,3 +20,12 @@ gh auth login
 7FC7-56E0
 gh repo create AWS+Azure+Devops --public --source=. --remote=origin --push
 git push
+
+git status
+git add .
+git commit -m "done"
+git status
+git push
+git status
+exit
+
