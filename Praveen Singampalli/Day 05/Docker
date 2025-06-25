@@ -66,3 +66,21 @@ Docker
 
 33.) Step 31 and 32 combined define FROM openjdk:8-jdk-alpine(os)
 
+34.) Moving to the directory we are working on "WORKDIR"
+
+35.) Define the path "/app"
+
+36.) step 34 and 35 combined define WORKDIR /app
+
+37.) copy the file converted to jar file using mvn clean install from local to container using command "COPY"
+
+38.) since it is jar file we define using "./target/*.jar /app.jar"
+
+39.) step 37 and 38 combined define COPY ./target/*.jar /app.jar
+
+40.) Start the application "CMD" execute and start application in container
+
+41.) for any jar application to run "["java", "-jar", "/app.jar"]" (java -jar agent.jar)
+
+42.) step 37 and 38 combined define CMD ["java", "-jar", "/app.jar"]
+
