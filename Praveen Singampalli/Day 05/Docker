@@ -60,4 +60,9 @@ Docker
 
 30.) resource allocation are done with the help of cgroups
 
-31.) 
+31.) 1 container having 1 server should also have os is defined using command "FROM"
+
+32.) Since it is java file we define using "openjdk:8-jdk-alpine(os)"
+
+33.) Step 31 and 32 combined define FROM openjdk:8-jdk-alpine(os)
+
