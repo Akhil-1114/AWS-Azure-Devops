@@ -90,7 +90,7 @@ Docker
 
 45.) ADD will be used with zip file
 
-46.) Make the application run, up after container created use command cmd ["p1","p2"] with parameters
+46.) Make the application run, up after container created use command cmd ["$p1","$p2"] with parameters
 
 47.) Make the application start after container created use command entrypoint [ ] without parameters
 
