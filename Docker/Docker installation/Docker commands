@@ -5,3 +5,16 @@ docker build
 docker run
 RUN
 
+"FROM openjdk:8-jdk-alpine(os)"
+"WORKDIR /app"
+"COPY ./target/*.jar /app.jar"
+"CMD ["java", "-jar", "/app.jar"]" (cmd ["p1","p2"]) parameters defined
+expose port
+docker run -p 9000:9000 sonarqube
+add zip
+docker run -p 9000:9000 sonarqube:latest -e or -a
+entrypoint [] parameters undefined
+
+
+
+
