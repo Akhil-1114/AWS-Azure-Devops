@@ -48,8 +48,16 @@ Docker
 
 24.) Docker file is a set of instructions to docker what to do
 
-25.) Scale 1 linux server to 100 linux servers in form of containers using docker file 
+25.) Scale 1 linux server to 100 linux servers in form of containers using docker file
 
-26.) containers have cgroups which handles resources
+26.) When connected to vpn we connect to client network which can be done using virtualization
 
-27.) 
+27.) 1st ec2 10gb ram 100gb hard disk
+
+28.) 1st ec2 to be converted to 10 containers using required resources and cgroups which defined using == notion
+
+29.) Ec2 server is parent having child ec2 servers called containers and containers should be having some inheritance from parent which are provided by resources
+
+30.) resource allocation are done with the help of cgroups
+
+31.) 
