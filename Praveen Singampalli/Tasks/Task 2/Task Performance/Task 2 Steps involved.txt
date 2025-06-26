@@ -1,4 +1,6 @@
 Task 2 Steps involved
+Install java and install git and install maven convert java file to jar file
+install docker and convert jar file to image and container and get inside of container
 
 Tools used
 
@@ -30,5 +32,18 @@ Docker schema
 08.) Spring project started
 09.) tomcat started on port 8080
 10.) cancel running process
-
-
+11.) come out of target
+12.) Install docker
+13.) check images
+14.) check containers
+15.) check dockerfile
+16.) check dockerfile script
+17.) create image
+18.) check image
+19.) create container
+20.) check container
+21.) get inside of container
+22.) check .jar file
+23.) get outside of container
+23.) copy the target file to container
+24.) Check container

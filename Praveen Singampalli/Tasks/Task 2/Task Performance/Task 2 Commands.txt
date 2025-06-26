@@ -19,3 +19,32 @@ Task 2 Commands
 17.) cd target
 18.) java -jar kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar
 19.) ctrl+C
+20.) cd ..
+21.) ls -lrta
+22.) ls
+23.) docker -v
+24.) clear
+25.) apt-get update
+26.) apt-get install docker.io -y
+27.) usermod -aG docker $USER
+28.) newgrp docker
+29.) chmod 777 /var/run/docker.sock
+30.) docker -v
+31.) docker images
+32.) docker ps -a
+33.) ls -lrta
+34.) ls
+35.) vim dockerfile
+36.) :wq
+37.) docker build .
+38.) docker images
+39.) docker run -p 8081:8081 imageid
+40.) docker ps -a
+41.) docker exec -it containerid /bin/sh
+42.) ls -lrta
+43.) ls
+44.) cd ..
+45.) exit
+46.) docker ps -a
+47.) docker inspect containerid
+

@@ -1,9 +1,6 @@
 Docker commands
 Client
-docker pull
-docker build
-docker run
-RUN
+
 
 "FROM openjdk:8-jdk-alpine(os)"
 "WORKDIR /app"
@@ -17,4 +14,17 @@ entrypoint [] parameters undefined
 
 
 
-
+01.) docker -v
+02.) docker pull
+03.) docker build
+04.) docker run
+05.) apt-get install docker.io -y
+06.) usermod -aG docker $USER
+07.) newgrp docker
+08.) sudo chmod 777 /var/run/docker.sock
+09.) docker images
+10.) docker ps -a
+11.) docker build .
+12.) docker run -p 8081:8081 imageid
+13.) docker exec -it containerid /bin/sh
+14.) docker inspect containerid

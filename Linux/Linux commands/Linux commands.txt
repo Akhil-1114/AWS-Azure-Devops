@@ -26,7 +26,7 @@ Linux commands
 
 13.) /lombok - search the name
 
-14.) :wq!
+14.) :wq
 
 15.) sudo su -
 
@@ -35,4 +35,13 @@ Linux commands
 17.) history
 
 18.) crtl+c
+
+19.) ps -A
+
+20.) :wq!
+
+21.) /bin/bash
+
+22.) /bin/sh
+
 
