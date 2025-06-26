@@ -2,3 +2,9 @@ Maven commands
 
 01.) mvn clean install
 
+02.) mvn clean install -DskipTests
+
+03.) apt install maven -y
+
+
+

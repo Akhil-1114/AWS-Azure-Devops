@@ -1,3 +1,36 @@
 Linux commands
 
-sudo apt install jenkins
+01.) sudo apt install jenkins
+
+02.) cd path
+
+03.) cd ..
+
+04.) ls -lrta
+
+05.) ls -ltr
+
+06.) ls
+
+07.) clear
+
+08.) mvn clean install -DskipTests
+
+09.) rm -rf file/directory
+
+10.) vim file
+
+11.) cat file
+
+12.) ctrl+end
+
+13.) /lombok - search the name
+
+14.) :wq!
+
+15.) sudo su -
+
+16.) apt-get update -y
+
+
+

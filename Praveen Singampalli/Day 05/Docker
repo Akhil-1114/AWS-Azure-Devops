@@ -94,3 +94,7 @@ Docker
 
 47.) Make the application start after container created use command entrypoint [ ] without parameters
 
+48.) javacode---jar---image---docker container
+
+49.) Docker networking, docker volumes, docker schema
+
