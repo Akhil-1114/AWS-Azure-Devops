@@ -1,0 +1,15 @@
+Task 2 Links
+
+01.) https://github.com/praveen1994dec/tools_installation_scripts/blob/main/jenkins.sh
+
+02.) https://github.com/praveen1994dec/Java_app_3.0.git
+
+03.) https://github.com/AWS-AZURE-Bootcamp5/tools-setup-project1/blob/main/docker.sh
+
+04.) https://github.com/praveen1994dec/tools_installation_scripts/blob/main/Maven.sh
+
+05.) https://github.com/vikash-kumar01/jenkins_shared_lib/blob/main/vars/mvnBuild.groovy
+
+06.) https://github.com/praveen1994dec/jenkins_shared_lib/blob/main/vars/mvnBuild.groovy
+
+07.) https://github.com/cryptax/techweb/blob/3f48e09b9bb3d74ba65a6d82144bb90869b6af09/rpi.md?plain=1#L443

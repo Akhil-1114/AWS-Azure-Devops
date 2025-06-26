@@ -6,5 +6,6 @@ Maven commands
 
 03.) apt install maven -y
 
+04.) mvn -version
 
 

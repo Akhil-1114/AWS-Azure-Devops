@@ -1,0 +1,4 @@
+Java commands
+
+01.) java -version
+02.) java -jar jarfilename.jar

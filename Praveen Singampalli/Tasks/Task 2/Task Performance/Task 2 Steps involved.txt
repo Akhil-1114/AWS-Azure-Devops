@@ -1,0 +1,34 @@
+Task 2 Steps involved
+
+Tools used
+
+Maven
+Docker
+Java
+
+Continuation of task 1
+
+
+Install java
+Install maven
+Install git
+Install docker
+
+Java code --- jar --- image --- docker container
+
+Docker networking
+Docker volume
+Docker schema
+
+01.) Create EC2 with 8gb and t2.micro or 30gb t2.medium
+02.) Install java
+03.) Install git
+04.) Install maven
+05.) target folder created with maven and jar info
+06.) Check java version
+07.) run jar file
+08.) Spring project started
+09.) tomcat started on port 8080
+10.) cancel running process
+
+
