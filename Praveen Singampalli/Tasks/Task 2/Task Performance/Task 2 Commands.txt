@@ -1,52 +1,53 @@
 Task 2 Commands
 
-01.) sudo apt install openjdk-17-jre -y
-02.) cd /opt
-03.) clear
-04.) ls
-05.) git clone https://github.com/praveen1994dec/Java_app_3.0.git
+01.) sudo su -
+02.) sudo apt-get update
+03.) sudo apt install openjdk-17-jre -y
+04.) cd opt
+05.) clear
 06.) ls
-07.) cd Java_app_3.0
-08.) clear
-09.) sudo apt-get update
-10.) apt install maven -y
-11.) mvn clean install
-12.) mvn clean install -DskipTests
-13.) java -version
-14.) ls -lrta
-15.) ls
-16.) clear
-17.) cd target
-18.) java -jar kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar
-19.) ctrl+C
-20.) cd ..
-21.) ls -lrta
-22.) ls
-23.) docker -v
-24.) clear
-25.) apt-get update
-26.) apt-get install docker.io -y
-27.) usermod -aG docker $USER
-28.) newgrp docker
-29.) chmod 777 /var/run/docker.sock
-30.) docker -v
-31.) docker images
-32.) docker ps -a
-33.) ls -lrta
-34.) ls
-35.) vim dockerfile
-36.) :wq
-37.) docker build .
-38.) docker images
-39.) docker run -p 8081:8081 imageid
-40.) docker ps -a
-41.) docker exec -it containerid /bin/sh
-42.) ls -lrta
-43.) ls
-44.) cd ..
-45.) exit
-46.) docker ps -a
-47.) docker inspect containerid
-48.) docker network create -d bridge devopsnetwork
-49.) docker network ls
+07.) git clone https://github.com/praveen1994dec/Java_app_3.0.git
+08.) ls
+09.) cd Java_app_3.0
+10.) clear
+11.) apt install maven -y
+12.) mvn clean install (test the code)
+13.) mvn clean install -DskipTests (wont test the code)
+14.) java -version
+15.) ls -lrta
+16.) ls
+17.) clear
+18.) cd target
+19.) java -jar kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar
+20.) ctrl+C
+21.) cd ..
+22.) ls -lrta
+23.) ls
+24.) docker -v
+25.) clear
+26.) apt-get update
+27.) apt-get install docker.io -y
+28.) usermod -aG docker $USER
+29.) newgrp docker
+30.) chmod 777 /var/run/docker.sock
+31.) docker -v
+32.) docker images
+33.) docker ps -a
+34.) ls -lrta
+35.) ls
+36.) vim dockerfile
+37.) :wq
+38.) docker build .
+39.) docker images
+40.) docker run -p 8081:8081 imageid
+41.) docker ps -a
+42.) docker exec -it containerid /bin/sh
+43.) ls -lrta
+44.) ls
+45.) cd ..
+46.) exit
+47.) docker ps -a
+48.) docker inspect containerid
+49.) docker network create -d bridge devopsnetwork
+50.) docker network ls
 

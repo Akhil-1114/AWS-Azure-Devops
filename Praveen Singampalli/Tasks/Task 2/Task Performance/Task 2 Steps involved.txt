@@ -50,3 +50,4 @@ Docker schema
 25.) create bridge network
 26.) sign up to docker hub
 
+Practice creation of pom file and docker file

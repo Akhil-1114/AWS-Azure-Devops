@@ -118,7 +118,7 @@ Docker
 
 59.) java - Jar - jfrog artifactory - image - Trivy - container -
 
-60.) Trivy shouws vulnerabilities as cve
+60.) Trivy shows vulnerabilities as cve
 
 61.) when we run docker image on Trivy, trivy will generate report in form of cve
 
