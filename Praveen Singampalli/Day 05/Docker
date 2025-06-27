@@ -12,11 +12,11 @@ Docker
 
 06.) Deploy the jar in 2 servers where each server is raising with 10k requests per second.
 
-07.) To overcome scalability of servers we come up with containers defined with id, size, os flavours, price, reciept(docker file (image)), stored properly, security, proper isolation, reliability
+07.) To overcome scalability of servers we come up with containers defined with id, size, os flavours, price, (reciept (docker file (image)), stored properly, security, proper isolation, reliability
 
 08.) Jar is converted into a container
 
-09.) Docker file(image) contains name of the person, commands, expose, run, copy, cmd, entrypoint, size, time and date, type, location, quality, ID
+09.) (reciept (docker file (image)) contains name of the person, commands, expose, run, copy, cmd, entrypoint, size, time and date, type, location, quality, ID
 
 10.) Docker file is used to convert jar into an image and converted into container
 
@@ -122,6 +122,6 @@ Docker
 
 61.) when we run docker image on Trivy, trivy will generate report in form of cve
 
-62.) Jfrog artifcatory store packages
+62.) Jfrog artifactory store packages
 
 
