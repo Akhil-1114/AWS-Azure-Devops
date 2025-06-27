@@ -47,4 +47,6 @@ Task 2 Commands
 45.) exit
 46.) docker ps -a
 47.) docker inspect containerid
+48.) docker network create -d bridge devopsnetwork
+49.) docker network ls
 

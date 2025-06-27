@@ -98,3 +98,30 @@ Docker
 
 49.) Docker networking, docker volumes, docker schema
 
+50.) Every container has schema
+
+51.) 3 types of networks for docker container - Bridge, Overlay, Post
+
+52.) overlay network helps to connect 2 ec2 instances having docker 1 on ec2-1 instance and docker 2 on each ec2-2 instance
+
+53.) Create a docker network for communication between each docker having ec2 instance
+
+54.) Bridge network helps to connect default network driver with ec2 instances
+
+55.) EC2 instance is attached with EBS volume where ebs volume acts as hard disk
+
+56.) container hard disk is volume called as mounts
+
+57.) Sonarqube and fortify code scanning security tools
+
+58.) Trivy docker image scanning security tool
+
+59.) java - Jar - jfrog artifactory - image - Trivy - container -
+
+60.) Trivy shouws vulnerabilities as cve
+
+61.) when we run docker image on Trivy, trivy will generate report in form of cve
+
+62.) Jfrog artifcatory store packages
+
+

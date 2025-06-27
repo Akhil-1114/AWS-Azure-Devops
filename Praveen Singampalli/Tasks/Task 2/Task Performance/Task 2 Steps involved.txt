@@ -47,3 +47,6 @@ Docker schema
 23.) get outside of container
 23.) copy the target file to container
 24.) Check container
+25.) create bridge network
+26.) sign up to docker hub
+

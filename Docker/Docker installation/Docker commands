@@ -28,3 +28,6 @@ entrypoint [] parameters undefined
 12.) docker run -p 8081:8081 imageid
 13.) docker exec -it containerid /bin/sh
 14.) docker inspect containerid
+15.) docker network create -d bridge my-bridge-network
+16.) docker network create -d overlay my-bridge-network
+17.) docker network ls
