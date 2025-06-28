@@ -2,3 +2,5 @@ Java commands
 
 01.) java -version
 02.) java -jar jarfilename.jar
+03.) apt install openjdk-17-jre -y
+

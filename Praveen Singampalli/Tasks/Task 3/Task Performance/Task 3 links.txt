@@ -1,0 +1,6 @@
+01.) https://github.com/praveen1994dec/Java_app_3.0
+02.) https://github.com/praveen1994dec/tools_installation_scripts/blob/main/jenkins.sh
+03.) https://github.com/praveen1994dec/tools_installation_scripts/blob/main/Maven.sh
+04.) https://codebeautify.org/online-xml-editor/cbed6e80#
+05.) https://github.com/praveen1994dec/tools_installation_scripts/blob/main/docker.sh
+06.) https://github.com/praveen1994dec/tools_installation_scripts/blob/main/Jfrog.sh

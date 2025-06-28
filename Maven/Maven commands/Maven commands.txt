@@ -1,11 +1,12 @@
 Maven commands
 
+01.) apt install maven -y
+
 01.) mvn clean install
 
 02.) mvn clean install -DskipTests
 
-03.) apt install maven -y
+03.) mvn -version
 
-04.) mvn -version
-
+04.) mvn -v
 

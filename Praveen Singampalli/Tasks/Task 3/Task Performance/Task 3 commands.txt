@@ -1,0 +1,47 @@
+01.) sudo su -
+02.) apt-get update -y
+03.) cd /opt
+04.) ls
+05.) git clone https://github.com/praveen1994dec/Java_app_3.0
+06.) git -v
+07.) mvn -v
+08.) java -version
+09.) ls
+10.) cd Java_app_3.0
+11.) ls
+09.) apt install openjdk-17-jre
+10.) java -version
+11.) cat pom.xml
+12.) apt-get update -y
+11.) mvn -v
+12.) mvn -version
+13.) apt install maven -y
+14.) mvn -v
+15.) ls
+13.) maven clean install
+14.) ls
+15.) cd target
+16.) ls
+17.) cd ..
+18.) apt-get install docker.io -y
+19.) ls
+20.) cat Dockerfile
+21.) Docker --version
+22.) usermod -aG docker $USER
+23.) newgrp docker
+24.) sudo chmod 777 /var/run/docker.sock
+25.) sudo usermod -aG docker $USER
+26.) docker pull docker.bintray.io/jfrog/artifactory-oss:latest
+27.) docker images
+27.) sudo mkdir -p /jfrog/artifactory
+28.) sudo chown -R 1030 /jfrog/
+29.) docker run --name artifactory -d -p 8081:8081 -p 8082:8082 -v /jfrog/artifactory:/var/opt/jfrog/artifactory docker.bintray.io/jfrog/artifactory-oss:latest
+30.) open chrome
+31.) http://<EC2IP_OR_DOMAIN>:8081/artifactory
+32.) Login ID – admin
+33.) Login password - password
+34.) cd target
+35.) curl-X PUT-u admin:password -T kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar http://<EC2IP>:8082/artifactory/example-repo-local
+
+
+

@@ -31,3 +31,6 @@ entrypoint [] parameters undefined
 15.) docker network create -d bridge my-bridge-network
 16.) docker network create -d overlay my-bridge-network
 17.) docker network ls
+18.) cat Dockerfile
+19.) docker pull docker.bintray.io/jfrog/artifactory-oss:latest
+20.) docker ps

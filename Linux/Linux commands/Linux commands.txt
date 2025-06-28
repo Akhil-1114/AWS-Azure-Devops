@@ -44,4 +44,36 @@ Linux commands
 
 22.) /bin/sh
 
+23.) sudo apt-get update -y
 
+24.) java -version
+
+25.) mvn -v
+
+26.) mvn -version
+
+27.) mvn clean install
+
+28.) apt install openjdk-17-jre -y
+
+29.) cd /opt
+
+30.) git -v
+
+31.) cat pom.xml
+
+32.) docker --version
+
+33.) cat Dockerfile
+
+34.) usermod -aG docker $USER
+
+35.) newgrp docker
+
+36.) chmod 777 path
+
+37.) mkdir -p /jfrog/artifactory
+
+38.) chown -R 1030 /jfrog/
+
+39.) curl-X PUT-u admin-T kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar http://<EC2IP>:8082/artifactory/example-repo-local

@@ -1,0 +1,24 @@
+Task 3 Steps involved
+
+install jfrog and store jar inside jfrog
+
+T2.MEDIUM [UBUNTU]with 8 GBshould suffice or you can opt t2.micro with 8 Gtep
+
+Tools used
+EC2
+git
+java
+maven
+Docker
+Jfrog
+
+01.) Create EC2 with 8gb t2.micro or 8gb t2.medium
+02.) cd /opt
+02.) Clone git
+03.) Install java
+04.) Install maven
+05.) create maven target folder
+06.) Install docker
+07.) Install jfrog artifactory image
+08.) Make a directory and provide user owner to the directory
+09.) deploy jfrog artifactory image on container
