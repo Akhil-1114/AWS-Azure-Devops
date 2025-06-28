@@ -1,0 +1,15 @@
+JENKINS MASTER SLAVE CONFIGURATION
+
+01.) create UBUNTU Ec2 instance with 8 GB T2.Micro
+02.) allow all traffic inbound rules from anywhere
+03.) open chrome and check http://13.127.153.218:8080/
+04.) Install java
+05.) Install jenkins
+06.) fetch jenkins password
+07.) Create node in jenkins
+08.) Check node created
+09.) Check build history of node created
+10.) Check load statistics of node created
+11.) Check log history
+12.) Disconnect node created
+13.) Delete node created

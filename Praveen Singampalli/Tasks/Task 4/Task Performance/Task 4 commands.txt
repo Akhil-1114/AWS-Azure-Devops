@@ -1,0 +1,24 @@
+01.) sudo su -
+02.) apt-get update -y
+03.) open chrome and check http://13.127.153.218:8080/
+04.) apt install openjdk-17-jre -y
+05.) cd /opt
+06.) ls
+07.) curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+
+08.) echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+
+09.) apt-get update -y
+
+10.) apt-get install jenkins - y
+
+11.) jenkins --version
+
+12.) cat /var/lib/jenkins/secrets/initialAdminPassword --- ad674bed213f46219afd5e912332075a
+
+13.) curl -sO http://13.127.153.218:8080/jnlpJars/agent.jar
+java -jar agent.jar -url http://13.127.153.218:8080/ -secret 0dbe60a86ba3de058bd67244dece75e79265c8feb8a69b48e5b4ebb3d1f3819f -name "First node" -webSocket -workDir "/opt/"
+

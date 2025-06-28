@@ -77,3 +77,18 @@ Linux commands
 38.) chown -R 1030 /jfrog/
 
 39.) curl-X PUT-u admin-T kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar http://<EC2IP>:8082/artifactory/example-repo-local
+
+40.) http://<EC2_IP>:8080/
+
+41.) curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+
+42.) echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+
+43.) jenkins --version
+
+44.) curl -sO http://13.127.153.218:8080/jnlpJars/agent.jar
+java -jar agent.jar -url http://13.127.153.218:8080/ -secret 0dbe60a86ba3de058bd67244dece75e79265c8feb8a69b48e5b4ebb3d1f3819f -name "First node" -webSocket -workDir "/opt/"
+

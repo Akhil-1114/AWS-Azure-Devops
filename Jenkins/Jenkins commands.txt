@@ -1,0 +1,32 @@
+Jenkins commands
+
+01.) ssh -i ec2_key.pem ubuntu@<public_ip>
+01.) ssh -i ec2_key.pem ubuntu@15.207.54.172
+02.) sudo su - --- privilege access
+03.) sudo apt update -y --- update
+04.) sudo apt upgrade -y --- upgrade
+05.) apt search openjdk | grep jre --- search java versions
+06.) sudo apt install openjdk-17-jre -y --- to install OpenJDK 17 Java Runtime Environment.
+07.) curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null --- 
+
+-f, --fail
+-s, --silent
+-S, --show-error
+-L, --location
+
+
+
+08.) echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null --- 
+09.) sudo apt-get update -y 
+10.) sudo apt-get install jenkins -y --- install jenkins
+11.) http://<EC2_PUBLIC _IP>:8080/ --- Sign into jenkins console
+12.) cat /var/lib/jenkins/secrets/initialAdminPassword --- collect the admin password (5947b2d1ea2d4983a47bf32d1c9b9164)
+13.) jenkins --version
+
+https://pkg.jenkins.io/
+
+14.) curl -sO http://13.127.153.218:8080/jnlpJars/agent.jar
+java -jar agent.jar -url http://13.127.153.218:8080/ -secret 0dbe60a86ba3de058bd67244dece75e79265c8feb8a69b48e5b4ebb3d1f3819f -name "First node" -webSocket -workDir "/opt/"
