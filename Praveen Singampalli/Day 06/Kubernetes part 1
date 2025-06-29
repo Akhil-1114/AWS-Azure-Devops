@@ -82,6 +82,25 @@ Kubernetes part 1
 
 37.) Kubernetes talk with YAML file using APIs
 
+38.) In this world every data is transferred using API
+
+39.) When talking with kubernetes need server which will interact with API
+
+40.) need server to read incoming data
+
+41.) Master node is considered as Front end application
+
+42.) Front end application is a API server which read incoming data and process and transfer to backend
+
+43.) Need to store incoming data which can be done using database server called as ETCD database
+
+44.) YAML is a key value file hence database also store key value data
+
+45.) what ever YAML file has will be stored in database in key value format
+
+46.) 
+
+
 
 
 
