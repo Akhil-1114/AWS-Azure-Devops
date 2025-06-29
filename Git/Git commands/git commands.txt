@@ -13,7 +13,7 @@ git push -u origin main
 git remote add origin https://github.com/Akhil-1114/Git
 git branch
 git branch -m master main
-git rm-rf filename
+rm-rf filename
 winget install --id GitHub.cli
 gh --version
 gh auth login
@@ -22,7 +22,8 @@ gh repo create AWS+Azure+Devops --public --source=. --remote=origin --push
 git push
 git clone link
 git pull
-
+git restore --staged filename
+git restore "path/filename"
 
 git -v
 git status
