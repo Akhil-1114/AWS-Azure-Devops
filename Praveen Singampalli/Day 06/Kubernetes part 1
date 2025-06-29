@@ -68,6 +68,20 @@ Kubernetes part 1
 
 30.) worker node are purely dependent on the input
 
+31.) wanted to create 2 laptops can be done using master
+
+32.) devops engineer talking with kubernetes using manifest YAML file
+
+33.) YAML is a plain syntax file having key value
+
+34.) YAML is simple to understand
+
+35.) Concept of API api/v3 internal teams will use it
+
+36.) devops engineer talks with kubernetes using manifest YAML file and YAML file consists of APIs
+
+37.) Kubernetes talk with YAML file using APIs
+
 
 
 
