@@ -1,5 +1,5 @@
 Pending
-01.) CD tools with Docker advanced hands on - July 20th
+01.) CD tools with Docker advanced hands on - July 20th - Done
 
 02.) Kubernetes hands on part-1 (basics) - July 21st
 
