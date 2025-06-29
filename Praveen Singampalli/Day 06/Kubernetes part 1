@@ -13,8 +13,8 @@ Kubernetes part 1
 
 05.) Kubernetes solved the problem of human interference by managing itself
 
-06.) Dynamic scaling, reliability, autofunctionality, container management, auto security, auto healing, networking, health
-     checks, resource management, balancing of load
+06.) Dynamic scaling, reliability, autofunctionality, container management, auto security, auto healing,
+     networking, health checks, resource management, balancing of load, worker nodes, replications
 
 07.) Dynamic scaling - as per the load scaling happens.Scaling is directly proportional to incoming load on the system
 
@@ -90,18 +90,27 @@ Kubernetes part 1
 
 41.) Master node is considered as Front end application
 
-42.) Front end application is a API server which read incoming data and process and transfer to backend
+42.) Front end application is a API server which read incoming data and process and transfer to backend (master node)
 
-43.) Need to store incoming data which can be done using database server called as ETCD database
+43.) Need to store incoming data which can be done using database server called as ETCD database (master nodes)
 
 44.) YAML is a key value file hence database also store key value data
 
 45.) what ever YAML file has will be stored in database in key value format
 
-46.) 
+46.) Whatever it is happening in master or worker node data is stored on database server
 
+47.) Control manager known as brain of application present on master node (master node)
 
+48.) Control manager manages worker nodes, replications, all features of kubernetes
 
+49.) Scheduler according to timetable of kubernetes will do deployments on worker nodes (master node)
+
+50.) in kubernetes deployments never happen on master nodes deployments happedn on worker nodes
+
+51.) 4 rule theory is applicable on worker node
+
+52.) 
 
 
 
