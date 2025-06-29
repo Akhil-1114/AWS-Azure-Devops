@@ -22,8 +22,9 @@ gh repo create AWS+Azure+Devops --public --source=. --remote=origin --push
 git push
 git clone link
 git pull
-git -v
 
+
+git -v
 git status
 git add .
 git commit -m "done"

@@ -1,0 +1,8 @@
+AWS Useful links
+
+01.) https://us-east-1.console.aws.amazon.com/costmanagement/home#/home
+02.) https://aws.amazon.com/free/ 
+03.) https://aws.amazon.com/free/free-tier-faqs/ 
+04.) https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-free-tier.html 
+05.) https://aws.amazon.com/cloudfront/faqs/#:~:text=Amazon%20CloudFront%20is%20a%20web%20service%20that,using%20a%20global%20network%20of%20edge%20locations .
+06.) https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
