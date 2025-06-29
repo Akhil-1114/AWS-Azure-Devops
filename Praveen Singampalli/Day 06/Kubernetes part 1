@@ -1,0 +1,71 @@
+Kubernetes part 1
+
+01.) even though we have docker for shipping jars or artifacts into containers and shipping to different kinds of systems
+
+02.) Scaling of containers in 2016 came docker swarm to scale containers as per requirement 1 container to 2 to 5 to 10
+     containers as per requirement
+
+03.) Docker swarm was providing scaling mechanism with issue there should be person continuously monitoring scaling
+     of containers, security of scaled containers attach one more docker container everything should be manually checked by some person
+
+04.) Running flipkart application where data is stored on docker containers if an error is unchecked during manual
+     checking flipkart application will be down to resolve issue it introduced kubernetes
+
+05.) Kubernetes solved the problem of human interference by managing itself
+
+06.) Dynamic scaling, reliability, autofunctionality, container management, auto security, auto healing, networking, health
+     checks, resource management, balancing of load
+
+07.) Dynamic scaling - as per the load scaling happens.Scaling is directly proportional to incoming load on the system
+
+08.) reliability - how the system is up 24/7, 365 days 99.999999999 application will be up and running
+
+09.) autofunctionality - supports automation scripts
+     
+10.) container management - kubernetes will specifically takes care of container management
+
+11.) Kubernetes is entirely built on docker
+
+12.) Docker is the underlying architecture for kubernetes
+
+13.) What ever features docker was not providing are given by kubernetes
+
+14.) auto security - Kubernetes has the best functionality of implementing RBAC providing its own security rules managing
+     its entire peoples access roles
+
+15.) Networking - we have multiple layers of networks in kubernetes
+
+16.) What kind of layers CALICO in kubernetes there is a seperate plugin architecture called CALICO which is a plugin
+     of network in kubernetes. kubernetes supports networking with various kinds of plugins 
+
+17.) health checks - when ever we have App1 and App2 deployed kubernetes performs automatic health checks. If
+     any application is down it will create App3 and trigger the traffic
+
+18.) Resource management - checks health and if any issue remove the complete state of the application structure
+     and create new application
+
+19.) Kubernetes has a dashboard
+
+20.) Docker was managed by person
+
+21.) kubernetes is not managed by person
+
+22.) architecture of kubernetes
+
+23.) 4 rule theory in kubernetes
+
+24.) jenkins has jenkins file
+
+25.) docker has docker file
+
+26.) kubernetes has manifest YAML file
+
+27.) code written will be in manifest YAML file
+
+28.) Kubernetes has a master slave concept as jenkins has a master slave concept 
+
+29.) 
+
+
+
+
