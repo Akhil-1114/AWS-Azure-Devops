@@ -62,9 +62,13 @@ Kubernetes part 1
 
 27.) code written will be in manifest YAML file
 
-28.) Kubernetes has a master slave concept as jenkins has a master slave concept 
+28.) Kubernetes has a master slave concept similary as jenkins has a master slave concept 
 
-29.) 
+29.) when ever we install kubernetes on the cloud first the kubernetes gives us master node as well as worker node
+
+30.) worker node are purely dependent on the input
+
+
 
 
 
