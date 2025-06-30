@@ -233,4 +233,19 @@ Kubernetes part 1
 
 100.) selector acts a mapping defining which pod the particular specification will be applied to
 
-done till 1:40 minutes
+101.) kubernetes mandates that for every pod there should be a service
+
+102.) 1 file of kubernetes has kind of pod and kind of deployment
+
+103.) deployment is more powerful than pod since in deployment we can provide replicas
+
+104.) attach the deployment with the pod with the help of selector
+
+105.) parent specification is for pod
+
+106.) child specification is for container
+
+107.) kubernetes gives automated health checks using livenessProbe:
+
+
+
