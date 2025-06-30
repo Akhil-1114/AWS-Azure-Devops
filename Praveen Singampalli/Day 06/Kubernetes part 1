@@ -124,8 +124,91 @@ Kubernetes part 1
 
 58.) pod is provided by kubernetes and all features of kubernetes are provided by pod layer
 
-60.) pod is smallest unit or function or item in kubernetes creating imaginary layer on container
+60.) pod is smallest unit or function or item in kubernetes creating imaginary layer on container protecting
+     our container like wrapper to make it safe packed
 
-done 39:40
+61.) pod has a container having jar in the container
 
+62.) what ever kubernetes does are done on pod itself
+
+63.) in pod we can have multiple containers but containers never have pod
+
+64.) Kubelet - worker node should talk with master can be done using kubelet
+
+65.) what ever worker node does should be known to master which can be done using kubelet
+
+66.) kubelet acts as an agent working with worker node and master and updates everything to master
+
+67.) all the information passed by kubelet is stored in master etcd
+
+68.) container runtime above every jar there is container and above every container there is pod and
+     kubernetes identifies issues inside the pod using container runtime which helps in monitoring containers inside the pod
+
+69.) container runtime talks with kubelet which talks with api server which talks with control management which
+     talks with scheduler and scheduler will schedule new pod
+
+70.) container runtime maintains cpu, memory, os, health of pods having containers
+
+71.) kube proxy worker node having pods and if wanted to maintain network between pods or outside world with the
+     pods can be done using kube proxy making sure everything is secured
+
+72.) kube proxy acts as firewall
+
+73.) YAML is defined as a manifest file
+
+74.) Docker image was pushed to docker registry i.e docker hub
+
+75.) Create a pod where kubernetes will read the docker image from docker registry and YAML file will convert
+     docker image to pod
+
+76.) some companies use jfrog to store docker images and some companies use docker hub to store docker images
+     some companies use nexus to store docker images
+
+77.) 4 rule theory in YAML manifest file
+
+78.) apiversion, kind, metadata, spec
+
+79.) master node has api server and when ever you want to talk with api server write command apiversion : api/v3
+
+80.) api version keeps on changing
+
+81.) without apiversion : api/v3 will not talk with api server
+
+82.) kind is case sensitive
+
+83.) ordering kind of sweets going to sweet shop using YAML file
+
+84.) pod
+
+85.) config map (store secret data)
+
+86.) service
+
+87.) deployment
+
+88.) replicaset (your own similar duplicate character)
+
+89.) RBAC
+
+90.) KIND:service helps to create loadbalancer, CNAME, nodeport, clusterip
+
+91.) loadbalancer having 2 pods and have loadbalancer between 2 pods using
+     KIND:service
+     type:loadbalancer
+
+92.) CNAME kubernetes wants to create own domain name using
+     KIND:service
+     type:CNAME
+
+93.) nodeport external communication created using nodeport where port is 30000+ which acts as an entry point to
+     worker node 
+     KIND:service
+     type:CNAME
+
+94.) all applications are talking on port only when ever a pod is deployed create nodeport to make sure
+     external communications happen
+
+95.) ClusterIP - cluster is a combination of multiple nodes workernodes
+
+96.) 2 cluster communication can be done using clusterip
 
