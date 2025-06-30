@@ -1,0 +1,11 @@
+YAML syntax
+
+YAML is case sensitive
+
+apiversion:api/v3
+KIND:service
+type:loadbalancer
+metadata:
+spec:
+KIND: persistent volume
+type: pv

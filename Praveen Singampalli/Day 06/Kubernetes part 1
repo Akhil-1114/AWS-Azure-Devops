@@ -206,9 +206,24 @@ Kubernetes part 1
      type:CNAME
 
 94.) all applications are talking on port only when ever a pod is deployed create nodeport to make sure
-     external communications happen
+     external communications happen on worker node
 
 95.) ClusterIP - cluster is a combination of multiple nodes workernodes
 
 96.) 2 cluster communication can be done using clusterip
 
+91.) nodeport is for 1 worker node
+
+92.) metadata is used to whenever creating pod some name to be assigned to pod with container in it
+
+93.) Spec container name, image, nodeport, port, container port will be provided here as specifications
+
+94.) in kubernetes there is volumes called as persistent volumes pv and pvc
+
+95.) in kubernetes from available volume create and attach persistent volume to pods
+
+96.) in kubernetes PVC claim will define how much size you are expecting from kubernetes cluster
+
+97.) volumes are taken from kubernetes
+
+98.) 
