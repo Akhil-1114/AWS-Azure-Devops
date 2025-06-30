@@ -92,3 +92,14 @@ Linux commands
 44.) curl -sO http://13.127.153.218:8080/jnlpJars/agent.jar
 java -jar agent.jar -url http://13.127.153.218:8080/ -secret 0dbe60a86ba3de058bd67244dece75e79265c8feb8a69b48e5b4ebb3d1f3819f -name "First node" -webSocket -workDir "/opt/"
 
+45.) yum update -y
+46.) systemctl start docker
+47.) systemctl enable docker
+48.) yuminstall conntrack-y
+49.) curl-LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+50.) sudo install minikube-linux-amd64 /usr/local/bin/minikube
+51.) /usr/local/bin/minikube start--force--driver=docker
+52.) 
+53.) 
+54.) 
+55.) 

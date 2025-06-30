@@ -247,5 +247,15 @@ Kubernetes part 1
 
 107.) kubernetes gives automated health checks using livenessProbe:
 
+108.) minikube a software/platform which provides free kubernetes setup
+
+109.) Conntrack a software/platform which helps kubernetes run
+
+110.) every software goes to bin folder
+
+111.) port forwarding will listen to a port and forward that request to another port
+
+112.) In real time EKS will be used
+
 
 

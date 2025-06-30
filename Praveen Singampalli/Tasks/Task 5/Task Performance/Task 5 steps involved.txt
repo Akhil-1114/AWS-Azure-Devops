@@ -1,0 +1,15 @@
+K8 setup using minikube creating a online shopping site
+
+01.) create ec2 using Amazon Linux 2 or Amazon Linux AMI or Amazon Linux 2 AMI (HVM) with t2.medium      with 30gb
+
+02.) update system
+
+03.) Start and enable docker
+
+04.) install Conntrack
+
+05.) Install minikube
+
+06.) start the minikube using docker driver
+
+07.) 
