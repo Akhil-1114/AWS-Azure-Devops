@@ -110,6 +110,22 @@ Kubernetes part 1
 
 51.) 4 rule theory is applicable on worker node
 
+52.) what ever worker node does everything is taken and given by api server
 
+53.) every data is incoming on to api server and bidirectional flow of data with api server
+
+54.) 4 components of workernodes pod, kubelet, containerruntime, kubeproxy,
+
+55.) pod - in container we place the jar and container is placed in pod
+
+56.) java file was converted to jar using maven tool
+
+57.) image was converted to container using docker
+
+58.) pod is provided by kubernetes and all features of kubernetes are provided by pod layer
+
+60.) pod is smallest unit or function or item in kubernetes creating imaginary layer on container
+
+done 39:40
 
 
