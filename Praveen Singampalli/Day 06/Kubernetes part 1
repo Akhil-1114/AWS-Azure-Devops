@@ -226,4 +226,10 @@ Kubernetes part 1
 
 97.) volumes are taken from kubernetes
 
-98.) 
+98.) There are multiple free tools to create kubernetes minikube, rancher, amazon eks, amazon aks
+
+99.) selector when ever creating a pod usually what ever specifications to which pod it should be attached is done
+     by selector
+
+100.) selector acts a mapping defining which pod the particular specification will be applied to
+

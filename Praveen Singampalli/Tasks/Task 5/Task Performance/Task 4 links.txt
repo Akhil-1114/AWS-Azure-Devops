@@ -1,0 +1,11 @@
+01.) https://github.com/praveen1994dec/kubernetes_java_deployment
+02.) https://github.com/praveen1994dec/kubernetes_java_deployment/tree/main/productcatalogue
+03.) https://github.com/praveen1994dec/kubernetes_java_deployment/blob/main/productcatalogue/Dockerfile
+04.) https://github.com/praveen1994dec/kubernetes_java_deployment/tree/main/shopfront
+05.) https://github.com/praveen1994dec/kubernetes_java_deployment/blob/main/shopfront/Dockerfile
+06.) https://github.com/praveen1994dec/kubernetes_java_deployment/tree/main/stockmanager
+07.) https://github.com/praveen1994dec/kubernetes_java_deployment/blob/main/stockmanager/Dockerfile
+08.) https://github.com/praveen1994dec/kubernetes_java_deployment/tree/main/kubernetes
+09.) https://github.com/praveen1994dec/kubernetes_java_deployment/blob/main/kubernetes/productcatalogue-service.yaml
+10.) https://github.com/praveen1994dec/kubernetes_java_deployment/blob/main/kubernetes/shopfront-service.yaml
+11.) https://github.com/praveen1994dec/kubernetes_java_deployment/blob/main/kubernetes/stockmanager-service.yaml
