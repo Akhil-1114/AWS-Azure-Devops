@@ -6,64 +6,58 @@ Kubernetes part 2
 
 03.) get/post/put/delete/create/apply all are api requests calls
 
-04.) delete the data from database use delete api request
+04.) any call to kubernetes is pre-defined using api request calls
 
-05.) update database with new data use put api request 
+05.) someone is defining to use that get/post/put/delete/create/apply api requests calls
 
-06.) get data from database use get api request 
+06.) we saw kubernetes YAML file with apiversion, kind, metadata, spec
 
-07.) any call to kubernetes is pre-defined using api request
+7.) based on the "kind" we create pod
 
-08.) someone is defining to use that get/post/put/delete/create/apply api requests calls
+8.) depending on the "kind" specifications are defined
 
-09.) we saw kubernetes YAML file with apiversion, kind, metadata, spec
+9.) why it is defined as apiversion : app/v1, 
 
-10.) based on the "kind" we create pod
+10.) why it is defined as kind with these specifications
 
-11.) depending on the "kind" specifications are defined
+11.) why to define YAML file in these format
 
-12.) why it is defined as apiversion : app/v1, 
+12.) define YAML file with api version, kind:heydevops, metadata: no. of students, batch name, start day of batch
 
-13.) why it is defined as kind with these specifications
+13.) I don't need YAML file defined by kubernetes i need to create my own YAML file which is possible
 
-14.) why to define YAML file in these format
+14.) Create my own YAML file via custom resource definition.
 
-15.) define YAML file with api version, kind:heydevops, metadata: no. of students, batch name, start day of batch
+15.) CRDs enable automation, but are not automation themselves
 
-16.) I don't need YAML file defined by kubernetes i need to create my own YAML file which is possible
+16.) Depending on the type of requirement api version gets changed
 
-17.) Create my own YAML file via custom resource definition.
+17.) There is single or multiple versions in a single api group
 
-18.) CRDs enable automation, but are not automation themselves
+18.) trigger email to 100 people at 5pm batch api group will be used
 
-19.) Depending on the type of requirement api version gets changed
+19.) all the api groups in kubernetes are defined by kubernetes
 
-20.) There is single or multiple versions in a single api group
+20.) we hit a api path on a server and if there is no code on the server it will return with 404 error
 
-21.) trigger email to 100 people at 5pm batch api group will be used
+21.) kubernetes provides us facility to create customized api groups using CRDs
 
-22.) all the api groups in kubernetes are defined by kubernetes
+22.) Kubernetes provides short names
 
-23.) we hit a api path on a server and if there is no code on the server it will return with 404 error
+23.) In kubernetes for pod there is already a YAML file defined
 
-24.) kubernetes provides us facility to create customized api groups using CRDs
-
-25.) Kubernetes provides short names
-
-26.) In kubernetes for pod there is already a YAML file defined
-
-27.) CRD helps to create YAML file only with matching already predefined YAML file parameters or it will be rejected i.e;
+24.) CRD helps to create YAML file only with matching already predefined YAML file parameters or it will be rejected i.e;
      own apiversion, kind, metadata, specs, api groups
 
-28.) CRD has 3 steps
+25.) CRD has 3 steps
 i.) design the code
 ii.) deploy the code
 iii.) design resources based on above code
 
-29.) Kubernetes api has 3 layers
+26.) Kubernetes api has 3 layers
 i.) Built in resources - provided by kubernetes
 ii.) Aggregated API's
 iii.) Custom resources
 
-30.) done till here 33:10
+27.) done till here 33:10
 
