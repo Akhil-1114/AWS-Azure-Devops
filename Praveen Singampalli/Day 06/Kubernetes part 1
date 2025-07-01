@@ -106,7 +106,7 @@ Kubernetes part 1
 
 49.) Scheduler according to timetable of kubernetes will do deployments on worker nodes (master node)
 
-50.) in kubernetes deployments never happen on master nodes deployments happedn on worker nodes
+50.) in kubernetes deployments never happen on master nodes deployments happen on worker nodes
 
 51.) 4 rule theory is applicable on worker node
 
