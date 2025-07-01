@@ -1,0 +1,9 @@
+Kubernetes commands
+
+01.) kubectl get pod
+
+02.) kubectl get alert
+
+03.) kubectl api-resources
+
+04.) kubectl get nodes

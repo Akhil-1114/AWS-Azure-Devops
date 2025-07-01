@@ -172,7 +172,7 @@ Kubernetes part 1
 
 80.) api version keeps on changing
 
-81.) without apiversion : api/v3 will not talk with api server
+81.) without apiversion : app/v3 will not talk with api server
 
 82.) kind is case sensitive
 
