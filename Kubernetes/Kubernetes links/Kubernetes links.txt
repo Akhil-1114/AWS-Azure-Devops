@@ -5,3 +5,6 @@ Kubernetes links
 02.) https://github.com/iximiuz/kexp
 
 03.) https://github.com/praveen1994dec/Custom_Resource_Definition
+
+04.) https://github.com/praveen1994dec/Custom_Resource_Definition/blob/main/crd.yml
+

@@ -94,8 +94,14 @@ iii.) Namespaces
 
 35.) Kubernetes works on 4 rule theory
 
-36.) Kubernetes uses YAML file
+36.) Kubernetes uses YAML file (yaml or yml)
 
+37.) 
 
-done till 1:00:00
+38.) CRD file will have apiversion, kind, metadata, spec
 
+39.) for creating api version we need api extentions
+
+40.) All the resources are based on api versions
+
+41.) 
