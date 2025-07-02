@@ -8,3 +8,5 @@ Kubernetes links
 
 04.) https://github.com/praveen1994dec/Custom_Resource_Definition/blob/main/crd.yml
 
+05.) https://github.com/praveen1994dec/Custom_Resource_Definition/blob/main/cr.yml
+

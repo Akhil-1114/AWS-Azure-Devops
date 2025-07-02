@@ -100,8 +100,16 @@ iii.) Namespaces
 
 38.) CRD file will have apiversion, kind, metadata, spec
 
-39.) for creating api version we need api extentions
+39.) In CRD file for creating api version we need api extentions and in kind we need to define
+     as customresourcedefination
 
-40.) All the resources are based on api versions
+40.) All the resources are dependent on api versions
 
-41.) 
+41.) In CRD file for specifications we have
+A.) group
+B.) names
+C.) scope
+D.) versions
+E.) schema
+
+42.) done till 1:33:00
