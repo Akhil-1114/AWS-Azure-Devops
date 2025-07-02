@@ -4,11 +4,11 @@ Kubernetes part 2
 
 02.) kubectl apply, kubectl delete - go to api server of kubernetes and get back the response
 
-03.) get/post/put/delete/create/apply all are api requests calls
+03.) get/post/put/delete/create/apply all are call requests to api 
 
-04.) any call to kubernetes is pre-defined using api request calls
+04.) any call to kubernetes is pre-defined using call requests to api
 
-05.) someone is defining to use that get/post/put/delete/create/apply api requests calls
+05.) someone is defining to use that get/post/put/delete/create/apply call requests to api
 
 06.) we saw kubernetes YAML file with apiversion, kind, metadata, spec
 
@@ -16,48 +16,86 @@ Kubernetes part 2
 
 8.) depending on the "kind" specifications are defined
 
-9.) why it is defined as apiversion : app/v1, 
+9.) why it is defined as kind with these specifications
 
-10.) why it is defined as kind with these specifications
+10.) why to define YAML file in these format
 
-11.) why to define YAML file in these format
+11.) define YAML file with own api version, kind:heydevops, metadata: no. of students, batch name, start day of batch
 
-12.) define YAML file with api version, kind:heydevops, metadata: no. of students, batch name, start day of batch
+12.) I don't need YAML file defined by kubernetes i need to create my own YAML file which is possible
 
-13.) I don't need YAML file defined by kubernetes i need to create my own YAML file which is possible
+13.) Create my own YAML file via custom resource definition.
 
-14.) Create my own YAML file via custom resource definition.
+14.) CRDs enable automation, but are not automation themselves
 
-15.) CRDs enable automation, but are not automation themselves
+15.) Depending on the type of requirement api version gets changed
 
-16.) Depending on the type of requirement api version gets changed
+16.) There is single or multiple versions in a single api group
 
-17.) There is single or multiple versions in a single api group
+17.) all the api groups in kubernetes are defined by kubernetes
 
-18.) trigger email to 100 people at 5pm batch api group will be used
+18.) we hit a api path on a server and if there is no code on the server it will return with 404 error
 
-19.) all the api groups in kubernetes are defined by kubernetes
+19.) kubernetes provides us facility to create customized api groups using CRDs
 
-20.) we hit a api path on a server and if there is no code on the server it will return with 404 error
+20.) Kubernetes provides short names
 
-21.) kubernetes provides us facility to create customized api groups using CRDs
+21.) In kubernetes for pod there is already a YAML file defined
 
-22.) Kubernetes provides short names
-
-23.) In kubernetes for pod there is already a YAML file defined
-
-24.) CRD helps to create YAML file only with matching already predefined YAML file parameters or it will be rejected i.e;
+22.) CRD helps to create YAML file only with matching already predefined YAML file parameters or it will be rejected i.e;
      own apiversion, kind, metadata, specs, api groups
 
-25.) CRD has 3 steps
+23.) CRD has 3 steps
 i.) design the code
 ii.) deploy the code
-iii.) design resources based on above code
+iii.) design resources based on code designed
 
-26.) Kubernetes api has 3 layers
+24.) in coding abc.dfg.lkj
+i.) abc is parent
+ii.) dfg is child
+iii.) lkj is subchild
+
+25.) Kubernetes api has 3 layers
 i.) Built in resources - provided by kubernetes
 ii.) Aggregated API's
 iii.) Custom resources
 
-27.) done till here 33:10
+26.) for pod creation using built in resources we used
+i.) imagename
+ii.) containername
+iii.) port
+
+27.) for pod creation using crd we used
+i.) appid
+ii.) code language
+iii.) OS
+iv.) Instancesize
+v.) environment type
+vi.) replicas
+
+28.) in every orgnization we have application id to calculate budget
+
+29.) pipelines are created based on language dependencies
+
+30.) pipelines are created based on environment dependencies
+
+31.) aggregator example policybazar having multiple policies
+
+32.) all the 3 layers of api are created using
+i.) API groups
+ii.) Resources
+iii.) Namespaces
+
+33.) Namespaces - when ever a kubernetes cluster is created divided with small boundaries where in house rooms
+     are divided using walls
+
+34.) created kubernetes cluster and deploying an flipkart application on kubernetes cluster so create namespaces
+     on kubernetes cluster and deploy pods inside namespaces using resources by taking api calls
+
+35.) Kubernetes works on 4 rule theory
+
+36.) Kubernetes uses YAML file
+
+
+done till 1:00:00
 

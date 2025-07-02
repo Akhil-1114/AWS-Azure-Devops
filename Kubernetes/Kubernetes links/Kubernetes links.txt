@@ -1,0 +1,7 @@
+Kubernetes links
+
+01.) https://iximiuz.com/en/
+
+02.) https://github.com/iximiuz/kexp
+
+03.) https://github.com/praveen1994dec/Custom_Resource_Definition
