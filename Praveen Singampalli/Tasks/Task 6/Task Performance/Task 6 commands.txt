@@ -1,0 +1,11 @@
+01.) sudo su -
+02.) yum install git -y
+01.) yum update -y
+02.) yum install docker -y
+03.) systemctl start docker
+04.) systemctl enable docker
+05.) yuminstall conntrack-y
+06.) curl-LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+07.) ls -lrta
+08.) sudo install minikube-linux-amd64 /usr/local/bin/minikube
+09.) /usr/local/bin/minikube start--force--driver=docker

@@ -1,15 +1,52 @@
 K8 setup using minikube creating a online shopping site
 
-01.) create ec2 using Amazon Linux 2 or Amazon Linux AMI or Amazon Linux 2 AMI (HVM) with t2.medium      with 30gb
+01.) create ec2 using Amazon Linux 2 or Amazon Linux AMI or Amazon Linux 2 AMI (HVM) with t2.medium with 30gb
 
-02.) update system
+02.) update packages
 
-03.) Start and enable docker
+03.) go to optional folder
 
-04.) install Conntrack
+04.) install docker
 
-05.) Install minikube
+05.) Start and enable docker
 
-06.) start the minikube using docker driver
+05.) check docker version
 
-07.) 
+06.) install Conntrack
+
+07.) fetch minikube package
+
+08.) Install minikube
+
+09.) go to bin folder
+
+10.) check minikube
+
+11.) go to optional folder
+
+12.) start the minikube using docker driver
+
+13.) install maven
+
+14.) install java
+
+15.) install kubectl and save the output in kubectl
+
+16.) provide access permissions to kubectl
+
+17.) make directory for kubectl
+
+18.) move the output to newly created directory
+
+19.) export the path of newly created directory
+
+20.) save the path in file
+
+21.) save the directory in the file
+
+22.) check kubectl version
+
+23.) fetch git into the system
+
+24.) Go to location to perform creation of pods
+

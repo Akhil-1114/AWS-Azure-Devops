@@ -35,3 +35,4 @@ entrypoint [] parameters undefined
 19.) docker pull docker.bintray.io/jfrog/artifactory-oss:latest
 20.) docker ps
 21.) yum install docker -y
+22.) docker --version

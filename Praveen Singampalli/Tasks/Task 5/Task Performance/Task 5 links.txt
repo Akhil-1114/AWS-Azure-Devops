@@ -9,3 +9,5 @@
 09.) https://github.com/praveen1994dec/kubernetes_java_deployment/blob/main/kubernetes/productcatalogue-service.yaml
 10.) https://github.com/praveen1994dec/kubernetes_java_deployment/blob/main/kubernetes/shopfront-service.yaml
 11.) https://github.com/praveen1994dec/kubernetes_java_deployment/blob/main/kubernetes/stockmanager-service.yaml
+12.) https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+13.) https://github.com/praveen1994dec/kubernetes_java_deployment.git

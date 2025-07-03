@@ -10,3 +10,5 @@ Maven commands
 
 04.) mvn -v
 
+05.) cd /opt
+

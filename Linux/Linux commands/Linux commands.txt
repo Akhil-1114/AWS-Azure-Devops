@@ -99,7 +99,30 @@ java -jar agent.jar -url http://13.127.153.218:8080/ -secret 0dbe60a86ba3de058bd
 49.) curl-LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 50.) sudo install minikube-linux-amd64 /usr/local/bin/minikube
 51.) /usr/local/bin/minikube start--force--driver=docker
-52.) 
-53.) 
-54.) 
-55.) 
+52.) yum install git -y
+53.) yum install docker -y
+54.) docker -v
+55.) docker --version
+26.) wget http://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+27.) yum install maven -y
+28.) yum install java -y
+29.) curl-o kubectl
+ https://amazon-eks.s3.us-west-2.amazonaws.com/1.20.4/2021-04-12/bin/linux/amd64/kubectl
+
+30.) chmod +x ./kubectl
+
+31.) mkdir-p $HOME/bin
+
+32.) cp ./kubectl $HOME/bin/kubectl
+
+33.) export PATH=$HOME/bin:$PATH
+
+34.) echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc
+
+35.) source $HOME/.bashrc
+
+36.) kubectl version--short–client
+
+37.) git clone https://github.com/praveen1994dec/kubernetes_java_deployment.git
+
+38.) 

@@ -24,6 +24,7 @@ git clone link
 git pull
 git restore --staged filename
 git restore "path/filename"
+yum install git -y
 
 git -v
 git status
@@ -33,4 +34,5 @@ git status
 git push
 git status
 exit
+
 

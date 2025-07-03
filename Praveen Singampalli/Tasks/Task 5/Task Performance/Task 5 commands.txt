@@ -1,9 +1,86 @@
-01.) yum update -y
-02.) yum install docker -y
-03.) systemctl start docker
-04.) systemctl enable docker
-05.) yuminstall conntrack-y
-06.) curl-LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-07.) ls -lrta
-08.) sudo install minikube-linux-amd64 /usr/local/bin/minikube
-09.) /usr/local/bin/minikube start--force--driver=docker
+01.) sudo su -
+
+02.) yum update -y
+
+03.) cd /opt
+
+04.) yum install docker -y
+
+05.) systemctl start docker
+
+06.) systemctl enable docker
+
+07.) docker -v
+
+08.) yum install conntrack-y
+09.) curl-LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+
+10.) ls -lrta
+
+11.) sudo install minikube-linux-amd64 /usr/local/bin/minikube
+
+12.) cd /usr/local/bin
+
+13.) cd ..
+
+14.) cd /opt
+
+15.) /usr/local/bin/minikube start--force--driver=docker
+
+16.) yum install maven -y
+
+17.) ls -lrta
+
+18.) yum install openjdk-17-jre -y
+
+19.) yum install git -y
+
+20.) curl-o kubectl
+ https://amazon-eks.s3.us-west-2.amazonaws.com/1.20.4/2021-04-12/bin/linux/amd64/kubectl
+
+21.) ls -lrta
+
+22.) chmod +x ./kubectl
+
+23.) mkdir-p $HOME/bin
+
+24.) cp ./kubectl $HOME/bin/kubectl
+
+25.) export PATH=$HOME/bin:$PATH
+
+26.) echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc
+
+27.) source $HOME/.bashrc
+
+28.) kubectl version--short–client
+
+29.) git clone https://github.com/praveen1994dec/kubernetes_java_deployment.git
+
+30.) ls -lrta
+
+31.) cd kubernetes_java_deployment
+
+32.) ls -lrta
+
+33.) cd shopfront/
+
+34.) ls -lrta
+
+35.) if target folder is not created run " mvn clean install-DskipTests"
+
+36.) ls -lrta
+
+37.) cd productcatalogue/
+
+38.) ls -lrta
+
+39.) if target folder is not created run " mvn clean install-DskipTests"
+
+40.) ls -lrta
+
+41.) cd stockmanager
+
+42.) ls -lrta
+
+43.) if target folder is not created run " mvn clean install-DskipTests"
+
