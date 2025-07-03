@@ -1,31 +1,22 @@
-K8 setup using minikube creating a online shopping site
+K8 setup using EKS
 
-01.) create ec2 using Amazon Linux 2 or Amazon Linux AMI or Amazon Linux 2 AMI (HVM) with t2.medium      with 30gb
+01.) create ec2 using Amazon Linux 2 or Amazon Linux AMI or Amazon Linux 2 AMI (HVM) with t2.medium with 30gb
 
 02.) create pem file
 
-03.) install git
+03.) update system 
 
-04.) update system
+04.) Go to optional folder
 
-05.) Go to optional folder
+05.) install git
 
-06.) Install docker
+06.) Install kubectl or minikube
 
-07.) Start and enable docker
+08.) install eks
 
-08.) install eks or minikube
+09.) Create iam access
 
-09.) go with installation of minikube
+10.) Attach iam access to ec2
 
-10.) install Conntrack
+11.) create master cluster
 
-05.) Install minikube
-
-06.) start the minikube using driver docker
-
-07.) install maven
-
-08.) 
-
-08.) Install maven

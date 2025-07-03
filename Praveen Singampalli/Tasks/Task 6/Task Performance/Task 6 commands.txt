@@ -1,11 +1,48 @@
-01.) sudo su -
-02.) yum install git -y
-01.) yum update -y
-02.) yum install docker -y
-03.) systemctl start docker
-04.) systemctl enable docker
-05.) yuminstall conntrack-y
-06.) curl-LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-07.) ls -lrta
-08.) sudo install minikube-linux-amd64 /usr/local/bin/minikube
-09.) /usr/local/bin/minikube start--force--driver=docker
+If wanted to install eks skip points 8 till 15
+
+01.) sudo su - 
+
+02.) yum update -y
+
+03.) cd /opt
+
+04.) yum install git -y
+
+05.) curl-o kubectl
+ https://amazon-eks.s3.us-west-2.amazonaws.com/1.20.4/2021-04-12/bin/linux/amd64/kubectl
+
+or
+
+05.) curl -O
+https://s3.us-west-2.amazonaws.com/amazon-eks/1.24.11/2023-03-17/bin/linux
+/ amd64/kubectl.sha256
+
+06.) ls -lrta
+
+07.) chmod +x ./kubectl
+
+08.) mkdir-p $HOME/bin
+
+09.) cp ./kubectl $HOME/bin/kubectl
+
+10.) export PATH=$HOME/bin:$PATH
+
+11.) echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc
+
+12.) source $HOME/.bashrc
+
+13.) kubectl version--short–client
+
+14.) curl --silent --location
+"https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname
+-s)_amd64.tar.gz" | tar xz -C /tmp
+
+15.) sudo mv /tmp/eksctl /usr/bin
+
+16.) eksctl version
+
+17.) eksctl create cluster --name=eksdemo \
+--region=us-west-1 \
+--zones=us-west-1b,us-west-1c \
+--without-nodegroup
+

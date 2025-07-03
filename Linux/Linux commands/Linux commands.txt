@@ -148,3 +148,8 @@ java -jar agent.jar -url http://13.127.153.218:8080/ -secret 0dbe60a86ba3de058bd
 48.) kubectl port-forward--address 0.0.0.0 svc/stockmanager 9008:8030
 
 49.) http://<EC2IP>:8090/products
+
+50.) eksctl create cluster --name=eksdemo \
+--region=us-west-1 \
+--zones=us-west-1b,us-west-1c \
+--without-nodegroup

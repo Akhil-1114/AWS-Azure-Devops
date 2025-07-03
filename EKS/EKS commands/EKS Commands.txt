@@ -1,0 +1,6 @@
+EKS Commands
+
+01.) eksctl create cluster --name=eksdemo \
+--region=us-west-1 \
+--zones=us-west-1b,us-west-1c \
+--without-nodegroup
