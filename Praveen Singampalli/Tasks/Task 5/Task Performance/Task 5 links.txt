@@ -11,3 +11,4 @@
 11.) https://github.com/praveen1994dec/kubernetes_java_deployment/blob/main/kubernetes/stockmanager-service.yaml
 12.) https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 13.) https://github.com/praveen1994dec/kubernetes_java_deployment.git
+14.) http://<EC2-IP>:8001/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/pod?namespace=default

@@ -125,4 +125,26 @@ java -jar agent.jar -url http://13.127.153.218:8080/ -secret 0dbe60a86ba3de058bd
 
 37.) git clone https://github.com/praveen1994dec/kubernetes_java_deployment.git
 
-38.) 
+38.) docker images
+
+39.) docker build -t foldername/jarfilename:latest .
+
+40.) docker push foldername/jarfilename:latest .
+
+41.) kubectl get pods
+
+42.) kubectl apply -f filename.yaml
+
+43.) /usr/local/bin/minikube dashboard
+
+44.) kubectl proxy--address='0.0.0.0'--accept-hosts='^*$'
+
+45.) http://<EC2-IP>:8001/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/pod?namespace=default
+
+46.) kubectl port-forward--address 0.0.0.0 svc/shopfront 8080:8010
+
+47.) kubectl port-forward--address 0.0.0.0 svc/productcatalogue 8090:8020
+
+48.) kubectl port-forward--address 0.0.0.0 svc/stockmanager 9008:8030
+
+49.) http://<EC2IP>:8090/products

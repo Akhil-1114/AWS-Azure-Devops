@@ -50,3 +50,42 @@ K8 setup using minikube creating a online shopping site
 
 24.) Go to location to perform creation of pods
 
+25.) Create maven target and convert to jar java file if required
+
+26.) check docker images
+
+27.) get inside of target folder
+
+28.) build an image with provided name
+
+29.) check docker images
+
+30.) docker login
+
+31.) username
+
+32.) password
+
+31.) push the image to repository (dockerhub)
+
+32.) check services
+
+33.) check pods
+
+34.) create pods
+
+35.) check services
+
+36.) start kubernetes dashboard in ec2
+
+37.) change security group of ec2 instance
+
+38.) open another ec2 window and set proxy
+
+39.) Open kubernetes dashboard 
+
+40.) each open ec2 terminal and run forwarding
+
+41.) each open ec2 terminal and fetch json data
+
+42.) 

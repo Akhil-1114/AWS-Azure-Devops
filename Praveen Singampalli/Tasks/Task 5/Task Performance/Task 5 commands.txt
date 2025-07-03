@@ -62,7 +62,7 @@
 
 32.) ls -lrta
 
-33.) cd shopfront/
+33.) cd folder/
 
 34.) ls -lrta
 
@@ -70,17 +70,42 @@
 
 36.) ls -lrta
 
-37.) cd productcatalogue/
+37.) docker images
 
-38.) ls -lrta
+38.) cd folder/
 
-39.) if target folder is not created run " mvn clean install-DskipTests"
+46.) docker build -t foldername/jarfilename:latest .
 
-40.) ls -lrta
+47.) docker images
 
-41.) cd stockmanager
+48.) docker login
 
-42.) ls -lrta
+49.) docker push foldername/jarfilename:latest .
 
-43.) if target folder is not created run " mvn clean install-DskipTests"
+50.) ls -lrta
 
+51.) cd kubernetes
+
+52.) kubectl get svc
+
+53.) kubectl get pods
+
+54.) kubectl apply -f filname.yaml
+
+55.) kubectl get pods
+
+56.) kubectl get svc
+
+57.) /usr/local/bin/minikube dashboard
+
+58.) kubectl proxy--address='0.0.0.0'--accept-hosts='^*$'
+
+59.) http://<EC2-IP>:8001/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/pod?namespace=default
+
+60.) kubectl port-forward--address 0.0.0.0 svc/shopfront 8080:8010
+
+61.) kubectl port-forward--address 0.0.0.0 svc/productcatalogue 8090:8020
+
+62.) kubectl port-forward--address 0.0.0.0 svc/stockmanager 9008:8030
+
+63.) http://<EC2IP>:8090/products

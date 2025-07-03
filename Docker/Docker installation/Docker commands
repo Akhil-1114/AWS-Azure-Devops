@@ -36,3 +36,5 @@ entrypoint [] parameters undefined
 20.) docker ps
 21.) yum install docker -y
 22.) docker --version
+23.) docker build -t foldername/jarfilename:latest .
+24.) docker push foldername/jarfilename:latest .

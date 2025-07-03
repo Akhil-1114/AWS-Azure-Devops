@@ -1,0 +1,135 @@
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+Installation of kubectl
+
+04.) curl-o kubectl
+ https://amazon-eks.s3.us-west-2.amazonaws.com/1.20.4/2021-04-12/bin/linux/amd64/kubectl
+
+05.) chmod +x ./kubectl
+
+06.) mkdir-p $HOME/bin
+
+07.) cp ./kubectl $HOME/bin/kubectl
+
+08.) export PATH=$HOME/bin:$PATH
+
+09.) echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc
+
+10.) source $HOME/.bashrc
+
+11.) kubectl version--short–client
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+01.) kubectl get svc
+
+02.) kubectl get pods
+
+03.) kubectl deploy
+
+04.) kubectl create
+
+05.) cd kubernetes
+
+06.) kubectl apply -f filename.yaml
+
+07.) /usr/local/bin/minikube dashboard
+
+08.) kubectl proxy--address='0.0.0.0'--accept-hosts='^*$'
+
+09.) http://<EC2-IP>:8001/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/pod?namespace=default
+
+10.) kubectl port-forward--address 0.0.0.0 svc/shopfront 8080:8010
+
+11.) kubectl port-forward--address 0.0.0.0 svc/productcatalogue 8090:8020
+
+12.) kubectl port-forward--address 0.0.0.0 svc/stockmanager 9008:8030
+
+13.) kubectl config view
+
+14.) kubectl cluster-info
+
+15.) kubectl describe pod <pod-name>
+
+16.) kubectl get events --namespace <namespace>
+
+17.) kubectl describe pod <pod-name>
+
+18.) kubectl describe node <node-name>
+
+19.) kubectl get pods --namespace <namespace> -
+o=jsonpath='{.items[*].status.containerStatuses[*].state}'
+
+20.) kubectl logs <pod-name> <container-name>
+
+21.) kubectl describe pod <pod-name>
+
+22.) kubectl auth can-i --list
+
+23.) kubectl get configmap <configmap-name> -o yaml
+
+24.) kubectl describe service <service-name>
+
+25.) kubectl get networkpolicies
+
+26.) kubectl get nodes
+
+27.) kubectl get pvc
+
+28.) kubectl describe storageclass
+
+29.) kubectl get pv
+
+30.) kubectl get psp
+
+31.) kubectl auth can-i --list --
+as=system:serviceaccount:<namespace>:<serviceaccount-name>
+
+32.) kubectl get roles,rolebindings --namespace <namespace>
+
+33.) kubectl get nodes --show-labels
+
+34.) kubectl describe ingress <ingress-name>
+
+35.) kubectl get pods --namespace <ingress-controller-namespace>
+
+36.) kubectl get deployments
+
+37.) kubectl describe deployment <deployment-name>
+
+38.) kubectl get crd
+
+39.) kubectl describe crd <crd-name>
+
+40.) kubectl get pods --all-namespaces --field-
+selector=status.phase=Terminating
+
+41.) kubectl delete pod <pod-name> --grace-period=0 –force
+
+42.) kubectl describe quota --namespace <namespace>
+
+43.) kubectl top pods --namespace <namespace>
+
+44.) kubectl rollout status deployment <deployment-name>,=
+
+45.) kubectl set image deployment/<deployment-name> <container-
+name>=<new-image>
+
+46.) kubectl drain <node-name> --ignore-daemonsets
+
+47.) kubectl get events --sort-by='.metadata.creationTimestamp'
+
+48.) kubectl apply -f <file.yaml> --dry-run=client
+
+49.) kubectl get events --all-namespaces --field-
+selector=involvedObject.kind=Pod,involvedObject.name=etcd
+
+50.) kubectl exec -it etcd-pod-name --namespace kube-system -- sh
+
+51.) etcdctl member list
+
+52.) etcdctl cluster-health
+
+
+	

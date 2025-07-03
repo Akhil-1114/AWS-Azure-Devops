@@ -1,0 +1,159 @@
+JENKINSFILE SCENARIOS WITH AUTMATIONS LINKS
+
+01.) JENKINS FILE LINK - Continuous Deployment with Rollback Strategy
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile1.txt
+
+Script Link - Continuous Deployment with Rollback Strategy
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Shell%20Scripts/1-deploy.sh
+
+02.)  JENKINS FILE LINK - Infrastructure as Code (IaC) with Terraform
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile2.txt
+
+Script Link - Infrastructure as Code (IaC) with Terraform
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Terraform/1-Terraform.tf
+
+03.) JENKINS FILE LINK - Automated Database Migrations
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile3.txt
+
+Script Link - Automated Database Migrations
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Shell%20Scripts/2-migrate-db.sh
+
+04.) JENKINS FILE LINK - Monitor and Alert on Application Health
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile4.txt
+
+Script Link - Monitor and Alert on Application Health
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Shell%20Scripts/3-monitoring.sh
+
+05.) JENKINS FILE LINK - Automated Security Scanning
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile5.txt
+
+06.) JENKINS FILE LINK - Backup and Restore Strategy
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile6.txt
+
+07.) JENKINS FILE LINK - Log Aggregation and Analysis
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile7.txt
+
+Script Link - Log Aggregation and Analysis
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Shell%20Scripts/4-analyze-logs.sh
+
+08.) JENKINS FILE LINK - Configuration Management with Ansible
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile8.txt
+
+Playbook Link - Configuration Management with Ansible
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Ansible%20Playbook/1-ansible-playbook.yaml
+
+09.)  JENKINS FILE LINK - Autoscaling Configuration
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile9.txt
+
+10.)  JENKINS FILE LINK - Security Compliance Check
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile10.txt
+
+Script Link - 
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Shell%20Scripts/5-security-checks.sh
+
+11.)  JENKINS FILE LINK - Vulnerability Scanning in CI/CD Pipeline
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile11.txt
+
+12.)  JENKINS FILE LINK - Static Code Analysis in CI/CD Pipeline
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile12.txt
+
+13.) JENKINS FILE LINK - Storing Build Artifacts
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile13.txt
+
+14.) JENKINS FILE LINK - Passing Parameters
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile14.txt
+
+15.) JENKINS FILE LINK - Multi-Stage Pipeline
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile15.txt
+
+16.) JENKINS FILE LINK - Parallel Jobs
+https://github.com/praveen1994dec/scenario_based_learnings/blob/main/Jenkinsfiles/jenkinsfile16.txt
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+1) Continuous Deployment with Rollback Strategy:
+● Scenario: Automatically deploy applications to production with the ability to rollback
+on failure.
+● Benefit: Ensures minimal downtime and quick recovery from deployment failures,
+maintaining application availability and user trust.
+
+
+2) Infrastructure as Code (IaC) with Terraform:
+● Scenario: Use Terraform to provision and manage infrastructure.
+● Benefit: Enables consistent, repeatable, and automated infrastructure provisioning,
+reducing human error and speeding up the setup process
+
+3)Automated Database Migrations:
+● Scenario: Apply database migrations as part of the deployment process.
+● Benefit: Ensures database schema changes are applied in sync with application
+deployments, preventing mismatches and runtime errors.
+
+4)Monitor and Alert on Application Health:
+● Scenario: Monitor application health and alert if any issues are detected.
+● Benefit: Provides early detection of issues, enabling quick response and resolution,
+thus maintaining application performance and reliability.
+
+5.)Automated Security Scanning:
+● Scenario: Perform security scanning of the application and Docker images.
+● Benefit: Detects vulnerabilities early in the development process, enhancing
+application security and compliance with industry standards.
+
+6.)Backup and Restore Strategy:
+● Scenario: Implement a backup and restore strategy for databases and application
+data.
+● Benefit: Protects against data loss and corruption, ensuring business continuity and
+data integrity.
+
+7)Log Aggregation and Analysis:
+● Scenario: Collect and analyze logs from the application.
+● Benefit: Centralizes log data for easier troubleshooting, performance monitoring, and
+anomaly detection, leading to quicker issue resolution.
+
+8)Configuration Management with Ansible:
+● Scenario: Use Ansible to manage server configurations and deployments.
+● Benefit: Automates and standardizes server configuration management, reducing
+configuration drift and ensuring consistency across environments.
+
+9)Autoscaling Configuration:
+● Scenario: Configure autoscaling for dynamic resource management.
+● Benefit: Ensures optimal resource usage by automatically scaling resources up or
+down based on demand, reducing costs and improving performance.
+
+10)Security Compliance Check:
+● Scenario: Integrate security compliance checks in the pipeline.
+● Benefit: Ensures the application adheres to security standards and compliance
+requirements, reducing vulnerabilities and legal risks.
+
+11)Vulnerability Scanning in CI/CD Pipeline:
+● Scenario: Integrate Trivy into the CI/CD pipeline to scan Docker images for vulnerabilities.
+● Benefit: Identifies security vulnerabilities early in the development process, ensuring that only
+secure images are deployed to production.
+
+12)Static Code Analysis in CI/CD Pipeline:
+● Scenario: Integrate SonarQube for static code analysis as part of the CI/CD pipeline.
+● Benefit: Ensures code quality and security by detecting bugs, code smells, and
+vulnerabilities before deployment.
+
+13)Storing Build Artifacts:
+● Scenario: Use Artifactory to store build artifacts from the CI/CD pipeline.
+● Benefit: Provides a central repository for managing and sharing build artifacts,
+ensuring consistency and traceability.
+
+14 ) Passing Parameters:
+● Scenario: Accept user inputs at build time to customize the build process.
+● Benefits: Allows customization of pipeline behavior based on different parameters
+such as environment (dev, test, prod), branch (master, develop), or specific settings
+(enable tests).
+
+15 ) Multi-Stage Pipeline:
+● Scenario: Organize the build process into multiple stages.
+● Benefits:Facilitates the sequential execution of distinct stages (e.g., build, test,
+deploy) within a single pipeline.
+
+16 ) Parallel Jobs:
+● Scenario: Run different stages or steps in parallel to speed up the pipeline.
+● Benefits:Accelerates pipeline execution by running multiple tasks concurrently,
+reducing overall build/test time.and also Maximizes the utilization of available
+resources (agents/containers) by parallelizing independent tasks
