@@ -18,5 +18,29 @@ K8 setup using EKS
 
 10.) Attach iam access to ec2
 
-11.) create master cluster
+11.) find zones available
+
+12.) create master cluster and excluding workernodes
+
+13.) make sure to that eks will also communicate with ec2 provide oidc (open id connection)
+
+14.) attach workernodes to master cluster
+
+15.) go to optional folder
+
+16.) Clone the repository
+
+17.) go to cloned folder
+
+18.) check number of worker nodes
+
+19.) Create resources
+
+20.) check the number of resources
+
+21.) fetch resources with groupname
+
+22.) Delete the worker node
+
+23.) Delete the master cluster
 

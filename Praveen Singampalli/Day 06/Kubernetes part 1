@@ -263,3 +263,18 @@ Kubernetes part 1
      another port
 
 115.) 
+
+116.) kubernetes has one master and 2 worker nodes
+
+117.) when you see any error in cli cancel the activity go to cloudformation and check stack status
+
+118.) delete the stack make changes in command and rerun the command in cli
+
+119.)
+
+120.) when we have master with 2 worker nodes and one worker node is dead new worker node will be created with the
+      help of deamon set
+
+121.) fluentd is a kubernetes monitoring tool
+
+

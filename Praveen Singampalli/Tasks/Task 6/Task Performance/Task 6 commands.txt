@@ -46,3 +46,46 @@ https://s3.us-west-2.amazonaws.com/amazon-eks/1.24.11/2023-03-17/bin/linux
 --zones=us-west-1b,us-west-1c \
 --without-nodegroup
 
+18.) eksctl utils associate-iam-oidc-provider \
+--region us-west-1 \
+--cluster eksdemo \
+--approve
+
+19.) eksctl create nodegroup --cluster=eksdemo \
+--region=us-west-1 \
+--name=eksdemo-ng-public \
+--node-type=t2.micro \
+--nodes=2 \
+--nodes-min=1 \
+--nodes-max=2 \
+--ssh-access \
+--ssh-public-key=key-test \
+--node-volume-size=10 \
+--managed \
+--asg-access \
+--external-dns-access \
+--full-ecr-access \
+--appmesh-access \
+--alb-ingress-access
+
+20.) cd /opt/
+
+21.) git clone https://github.com/praveen1994dec/Custom_Resource_Definition.git 
+
+22.) cd Custom_Resource_Definition/
+
+23.) kubectl get nodes
+
+24.) kubectl apply -f crd.yml
+
+25.) kubectl api-resources
+
+26.) kubectl get kindname
+
+27.) kubectl api-resources | grep kindname
+
+28.) eksctl delete nodegroup --cluster=eksdemo
+--region=us-west-1 --name=eksdemo-ng-public
+
+29.) eksctl delete cluster --name=eksdemo
+--region=us-west-1

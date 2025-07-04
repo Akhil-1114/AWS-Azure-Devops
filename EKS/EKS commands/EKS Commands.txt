@@ -4,3 +4,31 @@ EKS Commands
 --region=us-west-1 \
 --zones=us-west-1b,us-west-1c \
 --without-nodegroup
+
+02.) eksctl utils associate-iam-oidc-provider \
+--region us-west-1 \
+--cluster eksdemo \
+--approve
+
+03.) eksctl create nodegroup --cluster=eksdemo \
+--region=us-west-1 \
+--name=eksdemo-ng-public \
+--node-type=t2.micro \
+--nodes=2 \
+--nodes-min=1 \
+--nodes-max=2 \
+--ssh-access \
+--ssh-public-key=key-test \
+--node-volume-size=10 \
+--managed \
+--asg-access \
+--external-dns-access \
+--full-ecr-access \
+--appmesh-access \
+--alb-ingress-access
+
+04.) eksctl delete nodegroup --cluster=eksdemo
+--region=us-west-1 --name=eksdemo-ng-public
+
+05.) eksctl delete cluster --name=eksdemo
+--region=us-west-1

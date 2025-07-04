@@ -153,3 +153,41 @@ java -jar agent.jar -url http://13.127.153.218:8080/ -secret 0dbe60a86ba3de058bd
 --region=us-west-1 \
 --zones=us-west-1b,us-west-1c \
 --without-nodegroup
+
+51.) eksctl utils associate-iam-oidc-provider \
+--region us-west-1 \
+--cluster eksdemo \
+--approve
+
+52.) eksctl create nodegroup --cluster=eksdemo \
+--region=us-west-1 \
+--name=eksdemo-ng-public \
+--node-type=t2.micro \
+--nodes=2 \
+--nodes-min=1 \
+--nodes-max=2 \
+--ssh-access \
+--ssh-public-key=key-test \
+--node-volume-size=10 \
+--managed \
+--asg-access \
+--external-dns-access \
+--full-ecr-access \
+--appmesh-access \
+--alb-ingress-access
+
+53.) cd /opt/
+
+54.) cd opt/
+
+55.) kubectl get nodes
+
+56.) kubectl get kindname
+
+57.) kubectl api-resources | grep kindname
+
+58.) eksctl delete nodegroup --cluster=eksdemo
+--region=us-west-1 --name=eksdemo-ng-public
+
+59.) eksctl delete cluster --name=eksdemo
+--region=us-west-1

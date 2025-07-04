@@ -1,1 +1,8 @@
 01.) https://github.com/eksctl-io/eksctl
+
+02.) https://github.com/praveen1994dec/Custom_Resource_Definition.git
+
+03.) https://github.com/praveen1994dec/Custom_Resource_Definition/blob/main/crd.yml
+
+04.) https://github.com/praveen1994dec/Custom_Resource_Definition/blob/main/cr.yml
+
