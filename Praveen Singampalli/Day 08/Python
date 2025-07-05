@@ -26,6 +26,20 @@
 
 14.) global lets your function update outside code.
 
-15.) Set = Curly bag, no repeats — one is enough! - Unique values only
+15.) set = {} → unique, unordered, no duplicates, changeable
 
-16.) 
+16.) list = [] → not unique, ordered, allows duplicates, changeable
+
+17.) dict = {} → key-value pairs, keys are unique, ordered, changeable
+
+18.) tuple = () → ordered, allows duplicates, unchangeable
+
+19.) range = sequence of numbers, used in loops, not changeable, ordered
+
+20.) In Python, data drives automation.
+
+21.) 
+
+22.) 49:00
+
+
