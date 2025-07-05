@@ -191,3 +191,8 @@ java -jar agent.jar -url http://13.127.153.218:8080/ -secret 0dbe60a86ba3de058bd
 
 59.) eksctl delete cluster --name=eksdemo
 --region=us-west-1
+
+60.) yum install python -y
+
+61.) apt-get install python -y
+

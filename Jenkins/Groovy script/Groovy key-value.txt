@@ -1,0 +1,12 @@
+key:value and variable
+
+def config = [env: 'production', version: '1.0']
+println config.env
+
+| Element           | Type            |
+| ----------------- | --------------- |
+| `config`          | Variable        |
+| `env`, `version`  | Keys in the map |
+| `'prod'`, `'1.0'` | Values          |
+
+

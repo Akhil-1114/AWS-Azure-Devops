@@ -1,0 +1,14 @@
+Key:value
+
+name: my-app
+version: "1.0"
+env: production
+
+| Element      | Type      |
+| ------------ | --------- |
+| `name`       | **Key**   |
+| `my-app`     | **Value** |
+| `version`    | **Key**   |
+| `"1.0"`      | **Value** |
+| `env`        | **Key**   |
+| `production` | **Value** |

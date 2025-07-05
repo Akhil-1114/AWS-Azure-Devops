@@ -1,0 +1,11 @@
+variablefetch
+
+name: Hello
+
+import yaml
+
+Python to fetch from YAML:
+
+with open("config.yaml") as f:
+    data = yaml.safe_load(f)
+    print(data["name"])

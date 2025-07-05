@@ -1,0 +1,4 @@
+01.) yum install python -y
+
+02.) apt-get install python -y
+

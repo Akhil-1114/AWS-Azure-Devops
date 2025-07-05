@@ -1,0 +1,4 @@
+variablefetch
+
+def msg = "Hello"
+println msg

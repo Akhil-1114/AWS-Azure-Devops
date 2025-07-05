@@ -131,3 +131,20 @@ spec:
 
 
 
+
+
+////////////////////////////////////////////////////////////
+
+key:value
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-app
+  labels:
+    app: web
+    env: production
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx:latest
