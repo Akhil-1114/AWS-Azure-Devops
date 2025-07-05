@@ -11,5 +11,5 @@ def get_menu():
         "cake": cake
     }
 
-#def + function_name + () + : + variablename + return + {}
+#def + function_name + () + : + local variablename + return + {}
 
